@@ -1,0 +1,725 @@
+2026-02-25 19:44:35,268 75393 WARNING ? odoo.tools.config: option addons_path, invalid addons directory '/Users/bonan/Documents/Project/Digibay/ALL PROJECT/WISI/F2501 -  WISE/wisi-wise-web-odoo/custom_addons', skipped 
+2026-02-25 19:44:35,268 75393 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2026-02-25 19:44:35,269 75393 INFO ? odoo: Odoo version 19.0 
+2026-02-25 19:44:35,269 75393 INFO ? odoo: Using configuration file at /Users/bonan/Documents/Project/Digibay/ALL PROJECT/WISI/F2501 -  WISE/wisi-wise-web-odoo/odoo.conf 
+2026-02-25 19:44:35,270 75393 INFO ? odoo: addons paths: _NamespacePath(['/Users/bonan/Documents/Project/Digibay/ALL PROJECT/WISI/F2501 -  WISE/wisi-wise-web-odoo/odoo/addons', '/Users/bonan/Library/Application Support/Odoo/addons/19.0', '/Users/bonan/Documents/Project/Digibay/ALL PROJECT/WISI/F2501 -  WISE/wisi-wise-web-odoo/addons']) 
+2026-02-25 19:44:35,270 75393 INFO ? odoo: database: odoo@localhost:5434 
+2026-02-25 19:44:43,944 75393 WARNING ? odoo.service.server: 'watchdog' module not installed. Code autoreload feature is disabled 
+2026-02-25 19:44:44,157 75393 INFO ? odoo.service.server: HTTP service (werkzeug) running on 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa:8069 
+2026-02-25 19:44:47,915 75393 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-02-25 19:44:47,921 75393 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-02-25 19:44:47,975 75393 WARNING ? odoo.modules.module_graph: module wsi_hr: not installable, skipped 
+2026-02-25 19:44:48,008 75393 INFO ? odoo.modules.loading: loading 43 modules... 
+2026-02-25 19:44:53,338 75393 INFO ? odoo.modules.loading: 43 modules loaded in 5.33s, 0 queries (+0 extra) 
+2026-02-25 19:44:53,517 75393 ERROR ? odoo.modules.loading: Some modules are not loaded, some dependencies or manifest may be missing: ['wsi_hr'] 
+2026-02-25 19:44:53,518 75393 INFO ? odoo.modules.loading: Modules loaded. 
+2026-02-25 19:44:53,626 75393 INFO ? odoo.registry: Registry loaded in 5.894s 
+2026-02-25 19:44:53,629 75393 INFO wsi_2026 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-02-25 19:44:53,680 75393 INFO wsi_2026 odoo.addons.base.models.res_device: User 2 inserts device log (foBQeABMw3lPQchmJnGWH9Tgq618nLiFKiU-g2Ise7) 
+2026-02-25 19:44:54,404 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:44:54] "GET /odoo/action-20/398?debug=1 HTTP/1.1" 200 - 113 0.491 6.185
+2026-02-25 19:44:54,526 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:44:54] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 8 0.020 0.057
+2026-02-25 19:44:54,531 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:44:54] "GET /web/webclient/load_menus HTTP/1.1" 200 - 18 0.039 0.045
+2026-02-25 19:44:58,606 75393 INFO wsi_2026 odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/533e12d/web.assets_web.min.css (id:99) 
+2026-02-25 19:44:58,611 75393 INFO wsi_2026 odoo.addons.base.models.assetsbundle: Deleting attachments [60] (matching /web/assets/_______/web.assets_web.min.css) because it was replaced with /web/assets/533e12d/web.assets_web.min.css 
+2026-02-25 19:44:58,694 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:44:58] "GET /web/assets/533e12d/web.assets_web.min.css HTTP/1.1" 200 - 17 0.158 4.090
+2026-02-25 19:45:01,828 75393 INFO wsi_2026 odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/a354b77/web.assets_web_print.min.css (id:100) 
+2026-02-25 19:45:01,837 75393 INFO wsi_2026 odoo.addons.base.models.assetsbundle: Deleting attachments [61] (matching /web/assets/_______/web.assets_web_print.min.css) because it was replaced with /web/assets/a354b77/web.assets_web_print.min.css 
+2026-02-25 19:45:01,854 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:01] "GET /web/assets/a354b77/web.assets_web_print.min.css HTTP/1.1" 200 - 10 0.092 3.047
+2026-02-25 19:45:06,061 75393 INFO wsi_2026 odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/57b3f88/web.assets_web.min.js (id:101) 
+2026-02-25 19:45:06,063 75393 INFO wsi_2026 odoo.addons.base.models.assetsbundle: Deleting attachments [62] (matching /web/assets/_______/web.assets_web.min.js) because it was replaced with /web/assets/57b3f88/web.assets_web.min.js 
+2026-02-25 19:45:06,091 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:06] "GET /web/assets/57b3f88/web.assets_web.min.js HTTP/1.1" 200 - 13 0.017 11.634
+2026-02-25 19:45:06,457 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:06] "GET /web/bundle/web_tour.interactive?lang=en_US&debug=1 HTTP/1.1" 200 - 3 0.015 0.019
+2026-02-25 19:45:06,503 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:06] "GET /web/webclient/translations?hash=525937f36f5107cdf138bde468a932e47d0613be&lang=en_US HTTP/1.1" 200 - 2 0.011 0.076
+2026-02-25 19:45:06,503 75393 INFO wsi_2026 odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/bd5739c/bus.websocket_worker_assets.min.js (id:102) 
+2026-02-25 19:45:06,506 75393 INFO wsi_2026 odoo.addons.base.models.assetsbundle: Deleting attachments [17] (matching /web/assets/_______/bus.websocket_worker_assets.min.js) because it was replaced with /web/assets/bd5739c/bus.websocket_worker_assets.min.js 
+2026-02-25 19:45:06,538 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:06] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 10 0.047 0.067
+2026-02-25 19:45:06,852 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:06] "POST /web/dataset/call_kw/ir.http/lazy_session_info#ir.http.lazy_session_info HTTP/1.1" 200 - 6 0.104 0.158
+2026-02-25 19:45:06,888 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:06] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.097 0.175
+2026-02-25 19:45:06,949 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:06] "POST /mail/data HTTP/1.1" 200 - 27 0.156 0.142
+2026-02-25 19:45:07,095 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:07] "POST /web/dataset/call_kw/ir.model/web_read#ir.model.web_read HTTP/1.1" 200 - 30 0.177 0.215
+2026-02-25 19:45:07,174 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:07] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.006 0.019
+2026-02-25 19:45:07,211 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:07] "POST /web/dataset/call_kw/ir.model/get_views#ir.model.get_views HTTP/1.1" 200 - 55 0.337 0.248
+2026-02-25 19:45:07,225 75393 INFO wsi_2026 odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/e0e5dfb/web_tour.interactive.min.js (id:103) 
+2026-02-25 19:45:07,226 75393 INFO wsi_2026 odoo.addons.base.models.assetsbundle: Deleting attachments [63] (matching /web/assets/_______/web_tour.interactive.min.js) because it was replaced with /web/assets/e0e5dfb/web_tour.interactive.min.js 
+2026-02-25 19:45:07,233 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:07] "GET /web/assets/e0e5dfb/web_tour.interactive.min.js HTTP/1.1" 200 - 10 0.025 0.522
+2026-02-25 19:45:07,503 75393 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-02-25 19:45:08,890 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:08] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.002 0.007
+2026-02-25 19:45:43,124 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:43] "POST /web/action/load HTTP/1.1" 200 - 9 0.028 0.016
+2026-02-25 19:45:43,199 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:43] "POST /web/dataset/call_kw/res.config.settings/get_views#res.config.settings.get_views HTTP/1.1" 200 - 15 0.045 0.060
+2026-02-25 19:45:43,237 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:43] "POST /web/dataset/call_kw/res.config.settings/onchange#res.config.settings.onchange HTTP/1.1" 200 - 69 0.106 0.032
+2026-02-25 19:45:43,316 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:43] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.005 0.014
+2026-02-25 19:45:43,344 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:43] "POST /base_setup/data HTTP/1.1" 200 - 6 0.018 0.010
+2026-02-25 19:45:44,376 75393 INFO wsi_2026 odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2026-02-25 19:45:44,403 75393 INFO wsi_2026 odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) fully done (#loop 1; done 0; remaining 0; duration 0.03s) 
+2026-02-25 19:45:44,417 75393 INFO wsi_2026 odoo.addons.base.models.ir_cron: Job 'Digest Emails' (14) starting 
+2026-02-25 19:45:44,673 75393 INFO wsi_2026 odoo.addons.base.models.ir_cron: Job 'Digest Emails' (14) fully done (#loop 1; done 0; remaining 0; duration 0.26s) 
+2026-02-25 19:45:44,679 75393 INFO wsi_2026 odoo.addons.base.models.ir_cron: Job 'Attendance: Automatically check-out employees' (18) starting 
+2026-02-25 19:45:44,702 75393 INFO wsi_2026 odoo.addons.base.models.ir_cron: Job 'Attendance: Automatically check-out employees' (18) fully done (#loop 1; done 0; remaining 0; duration 0.02s) 
+2026-02-25 19:45:44,709 75393 INFO wsi_2026 odoo.addons.base.models.ir_cron: Job 'Attendance: Detect Absences for employees' (19) starting 
+2026-02-25 19:45:44,736 75393 INFO wsi_2026 odoo.addons.base.models.ir_cron: Job 'Attendance: Detect Absences for employees' (19) fully done (#loop 1; done 0; remaining 0; duration 0.03s) 
+2026-02-25 19:45:44,769 75393 INFO wsi_2026 odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2026-02-25 19:45:44,826 75393 INFO wsi_2026 odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) fully done (#loop 1; done 0; remaining 0; duration 0.06s) 
+2026-02-25 19:45:49,538 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:49] "POST /web/action/load HTTP/1.1" 200 - 10 0.014 0.012
+2026-02-25 19:45:49,635 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:49] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 37 0.030 0.040
+2026-02-25 19:45:49,652 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:49] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.003 0.006
+2026-02-25 19:45:49,679 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:49] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.004 0.007
+2026-02-25 19:45:49,708 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:49] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 43 0.043 0.021
+2026-02-25 19:45:49,809 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:49] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.008 0.151
+2026-02-25 19:45:49,862 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:49] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.003 0.005
+2026-02-25 19:45:54,198 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:54] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 5 0.009 0.015
+2026-02-25 19:45:54,231 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:54] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.005 0.009
+2026-02-25 19:45:54,254 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:54] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 41 0.047 0.034
+2026-02-25 19:45:58,709 75393 INFO wsi_2026 odoo.addons.base.models.ir_module: ALLOW access to module.button_uninstall_wizard on ['Employees'] to user info@wsi.co.id #2 via 127.0.0.1 
+2026-02-25 19:45:58,710 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:58] "POST /web/dataset/call_button/ir.module.module/button_uninstall_wizard#ir.module.module.button_uninstall_wizard HTTP/1.1" 200 - 3 0.004 0.006
+2026-02-25 19:45:58,757 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:58] "POST /web/dataset/call_kw/base.module.uninstall/get_views#base.module.uninstall.get_views HTTP/1.1" 200 - 9 0.013 0.017
+2026-02-25 19:45:58,843 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:45:58] "POST /web/dataset/call_kw/base.module.uninstall/onchange#base.module.uninstall.onchange HTTP/1.1" 200 - 21 0.049 0.028
+2026-02-25 19:46:00,937 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:00] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 5 0.006 0.010
+2026-02-25 19:46:04,393 75393 INFO wsi_2026 odoo.addons.base.models.ir_module: ALLOW access to module.button_uninstall_wizard on ['Employees'] to user info@wsi.co.id #2 via 127.0.0.1 
+2026-02-25 19:46:04,395 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:04] "POST /web/dataset/call_button/ir.module.module/button_uninstall_wizard#ir.module.module.button_uninstall_wizard HTTP/1.1" 200 - 3 0.003 0.006
+2026-02-25 19:46:04,434 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:04] "POST /web/dataset/call_kw/base.module.uninstall/onchange#base.module.uninstall.onchange HTTP/1.1" 200 - 20 0.017 0.012
+2026-02-25 19:46:06,061 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:06] "POST /web/dataset/call_kw/base.module.uninstall/web_save#base.module.uninstall.web_save HTTP/1.1" 200 - 19 0.026 0.014
+2026-02-25 19:46:06,083 75393 INFO wsi_2026 odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_uninstall on ['Employees'] to user info@wsi.co.id #2 via 127.0.0.1 
+2026-02-25 19:46:06,083 75393 INFO wsi_2026 odoo.addons.base.models.ir_module: User #2 triggered module uninstallation 
+2026-02-25 19:46:06,087 75393 INFO wsi_2026 odoo.addons.base.models.ir_module: ALLOW access to module.button_uninstall on ['Employees'] to user info@wsi.co.id #2 via 127.0.0.1 
+2026-02-25 19:46:06,193 75393 INFO wsi_2026 odoo.modules.loading: loading 1 modules... 
+2026-02-25 19:46:06,204 75393 INFO wsi_2026 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-02-25 19:46:06,243 75393 INFO wsi_2026 odoo.modules.loading: updating modules list 
+2026-02-25 19:46:06,245 75393 INFO wsi_2026 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2026-02-25 19:46:08,283 75393 WARNING wsi_2026 odoo.modules.module_graph: module wsi_hr: not installable, skipped 
+2026-02-25 19:46:08,285 75393 INFO wsi_2026 odoo.modules.loading: loading 43 modules... 
+2026-02-25 19:46:08,315 75393 INFO wsi_2026 odoo.modules.loading: 43 modules loaded in 0.03s, 0 queries (+0 extra) 
+2026-02-25 19:46:08,585 75393 INFO wsi_2026 odoo.addons.base.models.ir_module: ALLOW access to module.module_uninstall on ['Employees', 'HR Org Chart', 'Skills Management', 'WSI HR', 'Remote Work', 'OdooBot - HR', 'Attendances'] to user __system__ #1 via 127.0.0.1 
+2026-02-25 19:46:08,662 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting resource.calendar(2,) 
+2026-02-25 19:46:08,690 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26394] 
+2026-02-25 19:46:08,691 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted resource.calendar records with IDs: [2] 
+2026-02-25 19:46:08,699 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.resume.line(7, 6, 5, 4, 3, 2, 1) 
+2026-02-25 19:46:08,710 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26387, 26390, 26391, 26392, 26393, 26388, 26389] 
+2026-02-25 19:46:08,711 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.resume.line records with IDs: [7, 6, 5, 4, 3, 2, 1] 
+2026-02-25 19:46:08,718 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.employee.skill(14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1) 
+2026-02-25 19:46:08,744 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26375, 26373, 26374, 26376, 26385, 26382, 26383, 26384, 26386, 26378, 26379, 26377, 26381, 26380] 
+2026-02-25 19:46:08,745 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.employee.skill records with IDs: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1] 
+2026-02-25 19:46:08,753 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.skill(42, 41, 40, 39, 38, 37) 
+2026-02-25 19:46:08,763 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26361, 26370, 26365, 26366, 26363, 26371] 
+2026-02-25 19:46:08,764 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.skill records with IDs: [42, 41, 40, 39, 38, 37] 
+2026-02-25 19:46:08,771 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.skill.level(25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12) 
+2026-02-25 19:46:08,781 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26345, 26359, 26342, 26356, 26343, 26357, 26346, 26360, 26344, 26358, 26347, 26348, 26349, 26350] 
+2026-02-25 19:46:08,782 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.skill.level records with IDs: [25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12] 
+2026-02-25 19:46:08,789 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.skill.type(5, 4, 3) 
+2026-02-25 19:46:08,799 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26333, 26332, 26334] 
+2026-02-25 19:46:08,800 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.skill.type records with IDs: [5, 4, 3] 
+2026-02-25 19:46:08,807 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.employee(4,) 
+2026-02-25 19:46:08,822 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [77, 76] 
+2026-02-25 19:46:08,853 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26317] 
+2026-02-25 19:46:08,861 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [79, 80, 81, 82, 83] 
+2026-02-25 19:46:08,867 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.employee records with IDs: [4] 
+2026-02-25 19:46:08,880 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.followers records with IDs: [10] 
+2026-02-25 19:46:08,892 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted resource.resource records with IDs: [4] 
+2026-02-25 19:46:08,899 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.version(4,) 
+2026-02-25 19:46:08,908 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [75] 
+2026-02-25 19:46:08,923 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26316] 
+2026-02-25 19:46:08,924 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.version records with IDs: [4] 
+2026-02-25 19:46:08,934 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.followers records with IDs: [9] 
+2026-02-25 19:46:08,941 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.employee(3,) 
+2026-02-25 19:46:08,950 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [74, 73] 
+2026-02-25 19:46:08,967 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26315] 
+2026-02-25 19:46:08,973 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [74, 75, 76, 77, 78] 
+2026-02-25 19:46:08,978 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.employee records with IDs: [3] 
+2026-02-25 19:46:08,989 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.followers records with IDs: [8] 
+2026-02-25 19:46:09,002 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted resource.resource records with IDs: [3] 
+2026-02-25 19:46:09,010 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.version(3,) 
+2026-02-25 19:46:09,018 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [72] 
+2026-02-25 19:46:09,031 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26314] 
+2026-02-25 19:46:09,032 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.version records with IDs: [3] 
+2026-02-25 19:46:09,041 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.followers records with IDs: [7] 
+2026-02-25 19:46:09,049 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.employee(2,) 
+2026-02-25 19:46:09,057 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [71, 70] 
+2026-02-25 19:46:09,073 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26313] 
+2026-02-25 19:46:09,078 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [69, 70, 71, 72, 73] 
+2026-02-25 19:46:09,083 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.employee records with IDs: [2] 
+2026-02-25 19:46:09,092 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.followers records with IDs: [6] 
+2026-02-25 19:46:09,102 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted resource.resource records with IDs: [2] 
+2026-02-25 19:46:09,109 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.version(2,) 
+2026-02-25 19:46:09,116 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [69] 
+2026-02-25 19:46:09,128 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26312] 
+2026-02-25 19:46:09,130 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.version records with IDs: [2] 
+2026-02-25 19:46:09,141 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.followers records with IDs: [5] 
+2026-02-25 19:46:09,149 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting res.partner(8, 7, 6) 
+2026-02-25 19:46:09,157 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [68, 67, 66] 
+2026-02-25 19:46:09,192 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26309, 26310, 26311] 
+2026-02-25 19:46:09,198 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [66, 67, 68, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95] 
+2026-02-25 19:46:09,204 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted res.partner records with IDs: [8, 7, 6] 
+2026-02-25 19:46:09,213 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.followers records with IDs: [2, 3, 4] 
+2026-02-25 19:46:09,221 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.employee.category(3, 2, 1) 
+2026-02-25 19:46:09,229 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26306, 26307, 26308] 
+2026-02-25 19:46:09,230 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.employee.category records with IDs: [3, 2, 1] 
+2026-02-25 19:46:09,237 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.job(3, 2, 1) 
+2026-02-25 19:46:09,244 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [65, 64, 63] 
+2026-02-25 19:46:09,259 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26305, 26303, 26304] 
+2026-02-25 19:46:09,260 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.job records with IDs: [3, 2, 1] 
+2026-02-25 19:46:09,268 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.department(3, 2) 
+2026-02-25 19:46:09,275 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [62, 61] 
+2026-02-25 19:46:09,294 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26302, 26301] 
+2026-02-25 19:46:09,295 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.department records with IDs: [3, 2] 
+2026-02-25 19:46:09,303 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(674, 673) 
+2026-02-25 19:46:09,316 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26300, 26299] 
+2026-02-25 19:46:09,318 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [674, 673] 
+2026-02-25 19:46:09,325 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.menu(161,) 
+2026-02-25 19:46:09,334 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26125] 
+2026-02-25 19:46:09,335 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.menu records with IDs: [161] 
+2026-02-25 19:46:09,342 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(229, 228) 
+2026-02-25 19:46:09,355 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26123, 26124] 
+2026-02-25 19:46:09,356 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [229, 228] 
+2026-02-25 19:46:09,364 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(670, 669, 668, 667, 666, 665) 
+2026-02-25 19:46:09,376 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26118, 26119, 26122, 26120, 26121, 26117] 
+2026-02-25 19:46:09,377 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [670, 669, 668, 667, 666, 665] 
+2026-02-25 19:46:09,384 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.menu(160,) 
+2026-02-25 19:46:09,391 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26116] 
+2026-02-25 19:46:09,392 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.menu records with IDs: [160] 
+2026-02-25 19:46:09,399 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(227,) 
+2026-02-25 19:46:09,409 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26115] 
+2026-02-25 19:46:09,410 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [227] 
+2026-02-25 19:46:09,417 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(664, 663, 662, 661, 660) 
+2026-02-25 19:46:09,426 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26112, 26111, 26113, 26114, 26110] 
+2026-02-25 19:46:09,426 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [664, 663, 662, 661, 660] 
+2026-02-25 19:46:09,433 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(226,) 
+2026-02-25 19:46:09,442 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26109] 
+2026-02-25 19:46:09,443 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [226] 
+2026-02-25 19:46:09,450 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(659, 658, 657, 656) 
+2026-02-25 19:46:09,459 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26105, 26106, 26108, 26107] 
+2026-02-25 19:46:09,460 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [659, 658, 657, 656] 
+2026-02-25 19:46:09,466 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.menu(159, 158, 157, 156, 155, 154, 153, 152, 151, 150) 
+2026-02-25 19:46:09,481 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26096, 26098, 26103, 26101, 26104, 26099, 26097, 26095, 26102, 26100] 
+2026-02-25 19:46:09,485 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [53] 
+2026-02-25 19:46:09,491 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.menu records with IDs: [159, 158, 157, 156, 155, 154, 153, 152, 151, 150] 
+2026-02-25 19:46:09,497 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.server(225,) 
+2026-02-25 19:46:09,506 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [59] 
+2026-02-25 19:46:09,525 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26094] 
+2026-02-25 19:46:09,526 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.server records with IDs: [225] 
+2026-02-25 19:46:09,534 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.client(224,) 
+2026-02-25 19:46:09,544 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26093] 
+2026-02-25 19:46:09,545 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.client records with IDs: [224] 
+2026-02-25 19:46:09,552 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(223,) 
+2026-02-25 19:46:09,561 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26092] 
+2026-02-25 19:46:09,562 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [223] 
+2026-02-25 19:46:09,568 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(655, 654) 
+2026-02-25 19:46:09,576 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26090, 26091] 
+2026-02-25 19:46:09,577 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [655, 654] 
+2026-02-25 19:46:09,584 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(222, 221) 
+2026-02-25 19:46:09,595 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26088, 26089] 
+2026-02-25 19:46:09,596 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [222, 221] 
+2026-02-25 19:46:09,603 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.server(220, 219) 
+2026-02-25 19:46:09,612 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [58, 57] 
+2026-02-25 19:46:09,627 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26087, 26086] 
+2026-02-25 19:46:09,628 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.server records with IDs: [220, 219] 
+2026-02-25 19:46:09,636 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(653, 652, 651, 650, 649, 648) 
+2026-02-25 19:46:09,645 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26085, 26082, 26083, 26084, 26080, 26081] 
+2026-02-25 19:46:09,646 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [653, 652, 651, 650, 649, 648] 
+2026-02-25 19:46:09,653 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.access(346, 345, 344, 343, 342, 341, 340, 339, 338, 337) 
+2026-02-25 19:46:09,663 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26070, 26072, 26078, 26074, 26077, 26076, 26075, 26079, 26073, 26071] 
+2026-02-25 19:46:09,664 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.access records with IDs: [346, 345, 344, 343, 342, 341, 340, 339, 338, 337] 
+2026-02-25 19:46:09,670 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.rule(106, 105, 104, 103, 102, 101) 
+2026-02-25 19:46:09,679 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26068, 26069, 26065, 26066, 26067, 26064] 
+2026-02-25 19:46:09,680 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.rule records with IDs: [106, 105, 104, 103, 102, 101] 
+2026-02-25 19:46:09,687 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting res.groups(22, 21, 20, 19) 
+2026-02-25 19:46:09,721 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26063, 26061, 26059, 26062] 
+2026-02-25 19:46:09,722 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted res.groups records with IDs: [22, 21, 20, 19] 
+2026-02-25 19:46:09,729 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting res.groups.privilege(5,) 
+2026-02-25 19:46:09,738 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26058] 
+2026-02-25 19:46:09,739 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted res.groups.privilege records with IDs: [5] 
+2026-02-25 19:46:09,745 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.cron(19,) 
+2026-02-25 19:46:09,752 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [56] 
+2026-02-25 19:46:09,766 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26057] 
+2026-02-25 19:46:09,767 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.cron records with IDs: [19] 
+2026-02-25 19:46:09,774 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.server(218,) 
+2026-02-25 19:46:09,782 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [55] 
+2026-02-25 19:46:09,796 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26056] 
+2026-02-25 19:46:09,797 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.server records with IDs: [218] 
+2026-02-25 19:46:09,804 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.cron(18,) 
+2026-02-25 19:46:09,811 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [54] 
+2026-02-25 19:46:09,822 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26055] 
+2026-02-25 19:46:09,823 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.cron records with IDs: [18] 
+2026-02-25 19:46:09,830 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.server(217,) 
+2026-02-25 19:46:09,838 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [53] 
+2026-02-25 19:46:09,852 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26054] 
+2026-02-25 19:46:09,853 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.server records with IDs: [217] 
+2026-02-25 19:46:09,860 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.attendance.overtime.rule(2, 1) 
+2026-02-25 19:46:09,868 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26052, 26053] 
+2026-02-25 19:46:09,869 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.attendance.overtime.rule records with IDs: [2, 1] 
+2026-02-25 19:46:09,876 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.attendance.overtime.ruleset(1,) 
+2026-02-25 19:46:09,884 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26051] 
+2026-02-25 19:46:09,884 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.attendance.overtime.ruleset records with IDs: [1] 
+2026-02-25 19:46:09,893 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(641, 640) 
+2026-02-25 19:46:09,901 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24984, 24983] 
+2026-02-25 19:46:09,902 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [641, 640] 
+2026-02-25 19:46:09,914 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(215,) 
+2026-02-25 19:46:09,930 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24982] 
+2026-02-25 19:46:09,932 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [215] 
+2026-02-25 19:46:09,944 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(639, 638, 637, 636, 635, 634) 
+2026-02-25 19:46:09,961 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24976, 24981, 24977, 24978, 24980, 24979] 
+2026-02-25 19:46:09,963 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [639, 638, 637, 636, 635, 634] 
+2026-02-25 19:46:09,974 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.report(214,) 
+2026-02-25 19:46:09,988 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24975] 
+2026-02-25 19:46:09,989 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.report records with IDs: [214] 
+2026-02-25 19:46:09,996 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.menu(149,) 
+2026-02-25 19:46:10,004 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24974] 
+2026-02-25 19:46:10,005 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.menu records with IDs: [149] 
+2026-02-25 19:46:10,011 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(213, 212) 
+2026-02-25 19:46:10,021 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24973, 24972] 
+2026-02-25 19:46:10,022 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [213, 212] 
+2026-02-25 19:46:10,029 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(633, 632, 631, 630, 629, 628) 
+2026-02-25 19:46:10,039 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24966, 24967, 24969, 24970, 24968, 24971] 
+2026-02-25 19:46:10,040 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [633, 632, 631, 630, 629, 628] 
+2026-02-25 19:46:10,047 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.menu(148,) 
+2026-02-25 19:46:10,054 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24965] 
+2026-02-25 19:46:10,055 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.menu records with IDs: [148] 
+2026-02-25 19:46:10,062 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(211,) 
+2026-02-25 19:46:10,071 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24964] 
+2026-02-25 19:46:10,072 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [211] 
+2026-02-25 19:46:10,078 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(627, 626, 625) 
+2026-02-25 19:46:10,087 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24962, 24961, 24963] 
+2026-02-25 19:46:10,087 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [627, 626, 625] 
+2026-02-25 19:46:10,094 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting report.paperformat(5,) 
+2026-02-25 19:46:10,105 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24960] 
+2026-02-25 19:46:10,106 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted report.paperformat records with IDs: [5] 
+2026-02-25 19:46:10,113 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting mail.activity.type(7,) 
+2026-02-25 19:46:10,126 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24959] 
+2026-02-25 19:46:10,128 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.activity.type records with IDs: [7] 
+2026-02-25 19:46:10,135 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.cron(17,) 
+2026-02-25 19:46:10,143 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [50] 
+2026-02-25 19:46:10,155 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24958] 
+2026-02-25 19:46:10,156 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.cron records with IDs: [17] 
+2026-02-25 19:46:10,165 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.server(210, 209, 208) 
+2026-02-25 19:46:10,174 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [49, 48, 47] 
+2026-02-25 19:46:10,189 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24955, 24956, 24957] 
+2026-02-25 19:46:10,190 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.server records with IDs: [210, 209, 208] 
+2026-02-25 19:46:10,198 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.skill.level(11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1) 
+2026-02-25 19:46:10,206 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24944, 24945, 24953, 24946, 24947, 24950, 24948, 24949, 24951, 24954, 24952] 
+2026-02-25 19:46:10,207 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.skill.level records with IDs: [11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1] 
+2026-02-25 19:46:10,214 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.skill(36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1) 
+2026-02-25 19:46:10,225 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24937, 24913, 24914, 24929, 24938, 24940, 24933, 24934, 24910, 24912, 24908, 24911, 24917, 24920, 24922, 24924, 24927, 24939, 24915, 24928, 24943, 24935, 24942, 24919, 24931, 24923, 24941, 24918, 24909, 24936, 24930, 24925, 24932, 24926, 24921, 24916] 
+2026-02-25 19:46:10,226 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.skill records with IDs: [36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1] 
+2026-02-25 19:46:10,233 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.skill.type(2, 1) 
+2026-02-25 19:46:10,241 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24906, 24907] 
+2026-02-25 19:46:10,242 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.skill.type records with IDs: [2, 1] 
+2026-02-25 19:46:10,248 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.resume.line.type(3, 2, 1) 
+2026-02-25 19:46:10,256 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24904, 24903, 24905] 
+2026-02-25 19:46:10,257 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.resume.line.type records with IDs: [3, 2, 1] 
+2026-02-25 19:46:10,263 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(624, 623) 
+2026-02-25 19:46:10,271 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24902, 24901] 
+2026-02-25 19:46:10,272 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [624, 623] 
+2026-02-25 19:46:10,279 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.menu(147, 146, 145, 144, 143) 
+2026-02-25 19:46:10,289 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24899, 24897, 24898, 24896, 24900] 
+2026-02-25 19:46:10,290 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.menu records with IDs: [147, 146, 145, 144, 143] 
+2026-02-25 19:46:10,296 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(207,) 
+2026-02-25 19:46:10,305 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24895] 
+2026-02-25 19:46:10,306 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [207] 
+2026-02-25 19:46:10,313 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(622, 621, 620, 619, 618, 617, 616, 615, 614, 613, 612, 611) 
+2026-02-25 19:46:10,321 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24887] 
+2026-02-25 19:46:10,322 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [615] 
+2026-02-25 19:46:10,336 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24885, 24883, 24886, 24884, 24892, 24893, 24894, 24890, 24891, 24888, 24889] 
+2026-02-25 19:46:10,337 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [622, 621, 620, 619, 618, 617, 616, 615, 614, 613, 612, 611] 
+2026-02-25 19:46:10,344 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(206,) 
+2026-02-25 19:46:10,353 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24882] 
+2026-02-25 19:46:10,354 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [206] 
+2026-02-25 19:46:10,361 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.menu(142, 141) 
+2026-02-25 19:46:10,371 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24881, 24880] 
+2026-02-25 19:46:10,372 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.menu records with IDs: [142, 141] 
+2026-02-25 19:46:10,378 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(205,) 
+2026-02-25 19:46:10,388 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24879] 
+2026-02-25 19:46:10,389 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [205] 
+2026-02-25 19:46:10,396 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(610, 609, 608, 607) 
+2026-02-25 19:46:10,405 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24877, 24876, 24875, 24878] 
+2026-02-25 19:46:10,406 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [610, 609, 608, 607] 
+2026-02-25 19:46:10,413 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(204,) 
+2026-02-25 19:46:10,423 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24874] 
+2026-02-25 19:46:10,424 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [204] 
+2026-02-25 19:46:10,431 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(606, 605, 604, 603, 602, 601, 600) 
+2026-02-25 19:46:10,439 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24870] 
+2026-02-25 19:46:10,440 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [603] 
+2026-02-25 19:46:10,454 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24872, 24868, 24871, 24867, 24873, 24869] 
+2026-02-25 19:46:10,455 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [606, 605, 604, 603, 602, 601, 600] 
+2026-02-25 19:46:10,461 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.rule(100, 99, 98, 97, 96, 95, 94, 93, 92, 91, 90) 
+2026-02-25 19:46:10,470 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24864, 24865, 24862, 24863, 24866, 24856, 24857, 24859, 24861, 24860, 24858] 
+2026-02-25 19:46:10,471 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.rule records with IDs: [100, 99, 98, 97, 96, 95, 94, 93, 92, 91, 90] 
+2026-02-25 19:46:10,478 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.access(331, 330, 329, 328, 327, 326, 325, 324, 323, 322, 321, 320, 319, 318, 317, 316, 315, 314, 313, 312) 
+2026-02-25 19:46:10,488 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24849, 24855, 24846, 24847, 24851, 24852, 24850, 24848, 24853, 24854, 24836, 24837, 24838, 24839, 24844, 24845, 24842, 24843, 24840, 24841] 
+2026-02-25 19:46:10,489 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.access records with IDs: [331, 330, 329, 328, 327, 326, 325, 324, 323, 322, 321, 320, 319, 318, 317, 316, 315, 314, 313, 312] 
+2026-02-25 19:46:10,496 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.inherit(103, 102, 101, 100) 
+2026-02-25 19:46:10,504 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24834, 24832, 24835, 24833] 
+2026-02-25 19:46:10,505 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.inherit records with IDs: [103, 102, 101, 100] 
+2026-02-25 19:46:10,512 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window.view(51,) 
+2026-02-25 19:46:10,521 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24585] 
+2026-02-25 19:46:10,522 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window.view records with IDs: [51] 
+2026-02-25 19:46:10,536 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(599, 598, 597, 596) 
+2026-02-25 19:46:10,555 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24584, 24581, 24583, 24582] 
+2026-02-25 19:46:10,557 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [599, 598, 597, 596] 
+2026-02-25 19:46:10,565 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(203,) 
+2026-02-25 19:46:10,577 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24580] 
+2026-02-25 19:46:10,578 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [203] 
+2026-02-25 19:46:10,586 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window.view(50,) 
+2026-02-25 19:46:10,593 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24579] 
+2026-02-25 19:46:10,594 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window.view records with IDs: [50] 
+2026-02-25 19:46:10,601 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(595, 594) 
+2026-02-25 19:46:10,609 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24577, 24578] 
+2026-02-25 19:46:10,610 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [595, 594] 
+2026-02-25 19:46:10,616 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(202,) 
+2026-02-25 19:46:10,627 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24576] 
+2026-02-25 19:46:10,628 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [202] 
+2026-02-25 19:46:10,635 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window.view(49, 48) 
+2026-02-25 19:46:10,642 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24574, 24575] 
+2026-02-25 19:46:10,644 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window.view records with IDs: [49, 48] 
+2026-02-25 19:46:10,650 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(593, 592, 591, 590, 589, 588) 
+2026-02-25 19:46:10,659 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24521, 24522, 24518, 24519, 24520, 24573] 
+2026-02-25 19:46:10,660 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [593, 592, 591, 590, 589, 588] 
+2026-02-25 19:46:10,667 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.access(311, 310) 
+2026-02-25 19:46:10,674 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24516, 24517] 
+2026-02-25 19:46:10,675 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.access records with IDs: [311, 310] 
+2026-02-25 19:46:10,681 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.rule(89, 88) 
+2026-02-25 19:46:10,688 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [24515, 24514] 
+2026-02-25 19:46:10,689 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.rule records with IDs: [89, 88] 
+2026-02-25 19:46:10,695 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting mail.message.subtype(6, 5, 4) 
+2026-02-25 19:46:10,704 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23774, 23773, 23775] 
+2026-02-25 19:46:10,704 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message.subtype records with IDs: [6, 5, 4] 
+2026-02-25 19:46:10,712 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.employee(1,) 
+2026-02-25 19:46:10,761 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [46, 45] 
+2026-02-25 19:46:10,803 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23772] 
+2026-02-25 19:46:10,921 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [33, 35, 36, 37, 38] 
+2026-02-25 19:46:10,931 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.employee records with IDs: [1] 
+2026-02-25 19:46:10,951 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted resource.resource records with IDs: [1] 
+2026-02-25 19:46:10,964 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.version(1,) 
+2026-02-25 19:46:10,977 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [44] 
+2026-02-25 19:46:10,998 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23771] 
+2026-02-25 19:46:10,999 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.version records with IDs: [1] 
+2026-02-25 19:46:11,014 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.payroll.structure.type(4, 3, 2, 1) 
+2026-02-25 19:46:11,026 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23767, 23770, 23769, 23768] 
+2026-02-25 19:46:11,027 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.payroll.structure.type records with IDs: [4, 3, 2, 1] 
+2026-02-25 19:46:11,037 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.cron(16,) 
+2026-02-25 19:46:11,046 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [43] 
+2026-02-25 19:46:11,060 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23766] 
+2026-02-25 19:46:11,061 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.cron records with IDs: [16] 
+2026-02-25 19:46:11,069 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.server(201,) 
+2026-02-25 19:46:11,078 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [42] 
+2026-02-25 19:46:11,093 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23765] 
+2026-02-25 19:46:11,094 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.server records with IDs: [201] 
+2026-02-25 19:46:11,102 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.cron(15,) 
+2026-02-25 19:46:11,109 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [41] 
+2026-02-25 19:46:11,122 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23764] 
+2026-02-25 19:46:11,123 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.cron records with IDs: [15] 
+2026-02-25 19:46:11,131 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.server(200,) 
+2026-02-25 19:46:11,139 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [40] 
+2026-02-25 19:46:11,153 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23763] 
+2026-02-25 19:46:11,153 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.server records with IDs: [200] 
+2026-02-25 19:46:11,162 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.work.location(3, 2, 1) 
+2026-02-25 19:46:11,171 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23760, 23761, 23762] 
+2026-02-25 19:46:11,172 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.work.location records with IDs: [3, 2, 1] 
+2026-02-25 19:46:11,179 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.contract.type(12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1) 
+2026-02-25 19:46:11,190 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23756, 23759, 23752, 23750, 23754, 23753, 23748, 23751, 23758, 23755, 23749, 23757] 
+2026-02-25 19:46:11,191 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.contract.type records with IDs: [12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1] 
+2026-02-25 19:46:11,200 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.departure.reason(3, 2, 1) 
+2026-02-25 19:46:11,214 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23745, 23746, 23747] 
+2026-02-25 19:46:11,215 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.departure.reason records with IDs: [3, 2, 1] 
+2026-02-25 19:46:11,222 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting mail.activity.plan.template(5, 4) 
+2026-02-25 19:46:11,233 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23743, 23744] 
+2026-02-25 19:46:11,234 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.activity.plan.template records with IDs: [5, 4] 
+2026-02-25 19:46:11,241 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting mail.activity.plan(2,) 
+2026-02-25 19:46:11,251 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23742] 
+2026-02-25 19:46:11,252 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.activity.plan records with IDs: [2] 
+2026-02-25 19:46:11,259 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting mail.activity.plan.template(3, 2, 1) 
+2026-02-25 19:46:11,266 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23740, 23739, 23741] 
+2026-02-25 19:46:11,267 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.activity.plan.template records with IDs: [3, 2, 1] 
+2026-02-25 19:46:11,276 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting mail.activity.plan(1,) 
+2026-02-25 19:46:11,287 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23738] 
+2026-02-25 19:46:11,288 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.activity.plan records with IDs: [1] 
+2026-02-25 19:46:11,294 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting hr.department(1,) 
+2026-02-25 19:46:11,302 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [39] 
+2026-02-25 19:46:11,313 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23737] 
+2026-02-25 19:46:11,314 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted hr.department records with IDs: [1] 
+2026-02-25 19:46:11,322 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(587, 586) 
+2026-02-25 19:46:11,330 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23736, 23735] 
+2026-02-25 19:46:11,331 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [587, 586] 
+2026-02-25 19:46:11,337 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(199,) 
+2026-02-25 19:46:11,346 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23734] 
+2026-02-25 19:46:11,347 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [199] 
+2026-02-25 19:46:11,354 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(585, 584, 583, 582, 581, 580, 579, 578, 577) 
+2026-02-25 19:46:11,362 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23731] 
+2026-02-25 19:46:11,362 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [583] 
+2026-02-25 19:46:11,376 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23728, 23725, 23726, 23729, 23727, 23730, 23733, 23732] 
+2026-02-25 19:46:11,376 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [585, 584, 583, 582, 581, 580, 579, 578, 577] 
+2026-02-25 19:46:11,383 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.menu(140,) 
+2026-02-25 19:46:11,390 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23724] 
+2026-02-25 19:46:11,391 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.menu records with IDs: [140] 
+2026-02-25 19:46:11,398 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(198,) 
+2026-02-25 19:46:11,409 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23723] 
+2026-02-25 19:46:11,409 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [198] 
+2026-02-25 19:46:11,417 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(576,) 
+2026-02-25 19:46:11,426 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23722] 
+2026-02-25 19:46:11,427 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [576] 
+2026-02-25 19:46:11,435 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.menu(139, 138, 137, 136, 135, 134, 133, 132, 131, 130, 129, 128, 127, 126, 125, 124, 123) 
+2026-02-25 19:46:11,451 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23709, 23712, 23713, 23718, 23710, 23716, 23708, 23720, 23707, 23706, 23705, 23714, 23711, 23715, 23717, 23721, 23719] 
+2026-02-25 19:46:11,456 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [32] 
+2026-02-25 19:46:11,461 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.menu records with IDs: [139, 138, 137, 136, 135, 134, 133, 132, 131, 130, 129, 128, 127, 126, 125, 124, 123] 
+2026-02-25 19:46:11,469 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(197,) 
+2026-02-25 19:46:11,479 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23704] 
+2026-02-25 19:46:11,480 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [197] 
+2026-02-25 19:46:11,488 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(575, 574) 
+2026-02-25 19:46:11,500 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23703, 23702] 
+2026-02-25 19:46:11,502 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [575, 574] 
+2026-02-25 19:46:11,509 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window.view(47, 46, 45) 
+2026-02-25 19:46:11,517 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23701, 23699, 23700] 
+2026-02-25 19:46:11,518 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window.view records with IDs: [47, 46, 45] 
+2026-02-25 19:46:11,526 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(196,) 
+2026-02-25 19:46:11,537 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23698] 
+2026-02-25 19:46:11,538 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [196] 
+2026-02-25 19:46:11,544 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window.view(44, 43, 42) 
+2026-02-25 19:46:11,552 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23696, 23697, 23695] 
+2026-02-25 19:46:11,553 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window.view records with IDs: [44, 43, 42] 
+2026-02-25 19:46:11,560 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(195,) 
+2026-02-25 19:46:11,570 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23694] 
+2026-02-25 19:46:11,571 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [195] 
+2026-02-25 19:46:11,578 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(573, 572, 571, 570) 
+2026-02-25 19:46:11,588 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23693, 23692, 23690, 23691] 
+2026-02-25 19:46:11,589 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [573, 572, 571, 570] 
+2026-02-25 19:46:11,597 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.server(194, 193) 
+2026-02-25 19:46:11,606 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [38, 37] 
+2026-02-25 19:46:11,623 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23689, 23688] 
+2026-02-25 19:46:11,625 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.server records with IDs: [194, 193] 
+2026-02-25 19:46:11,636 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(192, 191) 
+2026-02-25 19:46:11,648 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23687, 23686] 
+2026-02-25 19:46:11,649 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [192, 191] 
+2026-02-25 19:46:11,657 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window.view(40, 39, 38, 37, 36, 35) 
+2026-02-25 19:46:11,666 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23683, 23682, 23684, 23680, 23685, 23681] 
+2026-02-25 19:46:11,667 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window.view records with IDs: [40, 39, 38, 37, 36, 35] 
+2026-02-25 19:46:11,675 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(190,) 
+2026-02-25 19:46:11,686 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23679] 
+2026-02-25 19:46:11,687 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [190] 
+2026-02-25 19:46:11,695 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.server(189,) 
+2026-02-25 19:46:11,705 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted mail.message records with IDs: [36] 
+2026-02-25 19:46:11,720 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23678] 
+2026-02-25 19:46:11,721 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.server records with IDs: [189] 
+2026-02-25 19:46:11,729 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(569, 568, 567, 566, 565, 564, 563, 562, 561, 560, 559) 
+2026-02-25 19:46:11,739 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23676] 
+2026-02-25 19:46:11,740 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [568] 
+2026-02-25 19:46:11,756 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23674, 23673, 23677, 23670, 23671, 23675, 23667, 23668, 23669, 23672] 
+2026-02-25 19:46:11,757 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [569, 568, 567, 566, 565, 564, 563, 562, 561, 560, 559] 
+2026-02-25 19:46:11,764 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.report(188,) 
+2026-02-25 19:46:11,775 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23666] 
+2026-02-25 19:46:11,776 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.report records with IDs: [188] 
+2026-02-25 19:46:11,783 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window.view(34, 33, 32) 
+2026-02-25 19:46:11,791 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23665, 23663, 23664] 
+2026-02-25 19:46:11,792 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window.view records with IDs: [34, 33, 32] 
+2026-02-25 19:46:11,799 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(187,) 
+2026-02-25 19:46:11,809 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23662] 
+2026-02-25 19:46:11,810 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [187] 
+2026-02-25 19:46:11,817 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(558, 557, 556, 555) 
+2026-02-25 19:46:11,827 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23659, 23661, 23658, 23660] 
+2026-02-25 19:46:11,829 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [558, 557, 556, 555] 
+2026-02-25 19:46:11,836 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(186,) 
+2026-02-25 19:46:11,846 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23657] 
+2026-02-25 19:46:11,847 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [186] 
+2026-02-25 19:46:11,854 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(554, 553) 
+2026-02-25 19:46:11,862 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23655, 23656] 
+2026-02-25 19:46:11,863 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [554, 553] 
+2026-02-25 19:46:11,870 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(185, 184) 
+2026-02-25 19:46:11,881 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23653, 23654] 
+2026-02-25 19:46:11,882 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [185, 184] 
+2026-02-25 19:46:11,890 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(552, 551, 550, 549) 
+2026-02-25 19:46:11,900 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23651, 23649, 23650, 23652] 
+2026-02-25 19:46:11,901 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [552, 551, 550, 549] 
+2026-02-25 19:46:11,909 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(183,) 
+2026-02-25 19:46:11,918 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23648] 
+2026-02-25 19:46:11,919 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [183] 
+2026-02-25 19:46:11,926 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(548, 547) 
+2026-02-25 19:46:11,935 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23647, 23646] 
+2026-02-25 19:46:11,936 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [548, 547] 
+2026-02-25 19:46:11,942 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(182,) 
+2026-02-25 19:46:11,952 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23645] 
+2026-02-25 19:46:11,953 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [182] 
+2026-02-25 19:46:11,960 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(546, 545) 
+2026-02-25 19:46:11,968 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23644, 23643] 
+2026-02-25 19:46:11,968 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [546, 545] 
+2026-02-25 19:46:11,975 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(181,) 
+2026-02-25 19:46:11,984 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23642] 
+2026-02-25 19:46:11,985 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [181] 
+2026-02-25 19:46:11,991 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(544, 543) 
+2026-02-25 19:46:12,002 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23640, 23641] 
+2026-02-25 19:46:12,004 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [544, 543] 
+2026-02-25 19:46:12,014 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(180,) 
+2026-02-25 19:46:12,034 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23639] 
+2026-02-25 19:46:12,037 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [180] 
+2026-02-25 19:46:12,047 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(542, 541, 540, 539) 
+2026-02-25 19:46:12,057 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23636, 23635, 23637, 23638] 
+2026-02-25 19:46:12,058 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [542, 541, 540, 539] 
+2026-02-25 19:46:12,065 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(179,) 
+2026-02-25 19:46:12,074 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23634] 
+2026-02-25 19:46:12,075 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [179] 
+2026-02-25 19:46:12,082 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window.view(26, 25) 
+2026-02-25 19:46:12,090 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23633, 23632] 
+2026-02-25 19:46:12,090 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window.view records with IDs: [26, 25] 
+2026-02-25 19:46:12,097 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(178,) 
+2026-02-25 19:46:12,106 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23631] 
+2026-02-25 19:46:12,107 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [178] 
+2026-02-25 19:46:12,113 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(538, 537, 536, 535, 534) 
+2026-02-25 19:46:12,124 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23627, 23628, 23629, 23630, 23626] 
+2026-02-25 19:46:12,125 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [538, 537, 536, 535, 534] 
+2026-02-25 19:46:12,132 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(177,) 
+2026-02-25 19:46:12,142 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23625] 
+2026-02-25 19:46:12,143 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [177] 
+2026-02-25 19:46:12,150 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(533, 532, 531) 
+2026-02-25 19:46:12,159 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23622, 23623, 23624] 
+2026-02-25 19:46:12,160 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [533, 532, 531] 
+2026-02-25 19:46:12,167 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(176,) 
+2026-02-25 19:46:12,178 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23621] 
+2026-02-25 19:46:12,179 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [176] 
+2026-02-25 19:46:12,188 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.ui.view(530,) 
+2026-02-25 19:46:12,198 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23620] 
+2026-02-25 19:46:12,200 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [530] 
+2026-02-25 19:46:12,207 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting report.paperformat(4,) 
+2026-02-25 19:46:12,215 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23619] 
+2026-02-25 19:46:12,216 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted report.paperformat records with IDs: [4] 
+2026-02-25 19:46:12,223 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting digest.tip(8,) 
+2026-02-25 19:46:12,231 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23618] 
+2026-02-25 19:46:12,232 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted digest.tip records with IDs: [8] 
+2026-02-25 19:46:12,240 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.access(309, 308, 307, 306, 305, 304, 303, 302, 301, 300, 299, 298, 297, 296, 295, 294, 293, 292, 291, 290, 289, 288, 287, 286, 285, 284) 
+2026-02-25 19:46:12,250 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23603, 23604, 23609, 23599, 23598, 23608, 23602, 23593, 23592, 23596, 23597, 23595, 23594, 23601, 23600, 23614, 23617, 23616, 23615, 23610, 23611, 23605, 23607, 23606, 23612, 23613] 
+2026-02-25 19:46:12,251 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.access records with IDs: [309, 308, 307, 306, 305, 304, 303, 302, 301, 300, 299, 298, 297, 296, 295, 294, 293, 292, 291, 290, 289, 288, 287, 286, 285, 284] 
+2026-02-25 19:46:12,258 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.rule(87, 86, 85, 84, 83, 82, 81, 80, 79, 78, 77, 76, 75) 
+2026-02-25 19:46:12,268 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23580, 23579, 23581, 23582, 23589, 23590, 23585, 23588, 23591, 23584, 23583, 23586, 23587] 
+2026-02-25 19:46:12,269 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.rule records with IDs: [87, 86, 85, 84, 83, 82, 81, 80, 79, 78, 77, 76, 75] 
+2026-02-25 19:46:12,276 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting res.groups(18, 17) 
+2026-02-25 19:46:12,303 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23578, 23577] 
+2026-02-25 19:46:12,304 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted res.groups records with IDs: [18, 17] 
+2026-02-25 19:46:12,314 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting res.groups.privilege(4,) 
+2026-02-25 19:46:12,321 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23576] 
+2026-02-25 19:46:12,322 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted res.groups.privilege records with IDs: [4] 
+2026-02-25 19:46:12,330 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.inherit(99, 97, 96, 95, 94, 93, 90) 
+2026-02-25 19:46:12,338 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23421, 23415, 23416, 23413, 23412, 23414, 23406] 
+2026-02-25 19:46:12,339 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.inherit records with IDs: [99, 97, 96, 95, 94, 93, 90] 
+2026-02-25 19:46:12,351 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.constraint(925, 924, 923, 879, 878, 866, 786, 785, 784, 783, 782, 781, 780) 
+2026-02-25 19:46:12,359 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Dropped CONSTRAINT hr_attendance_overtime_rule_timing_stop_is_hour@hr.attendance.overtime.rule 
+2026-02-25 19:46:12,361 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Dropped CONSTRAINT hr_attendance_overtime_rule_timing_start_is_hour@hr.attendance.overtime.rule 
+2026-02-25 19:46:12,364 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Dropped CONSTRAINT hr_attendance_overtime_line_overtime_start_before_end@hr.attendance.overtime.line 
+2026-02-25 19:46:12,366 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Dropped CONSTRAINT hr_skill_level_check_level_progress@hr.skill.level 
+2026-02-25 19:46:12,368 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Dropped CONSTRAINT hr_resume_line_date_check@hr.resume.line 
+2026-02-25 19:46:12,370 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Dropped CONSTRAINT hr_employee_location_uniq_exceptional_per_day@hr.employee.location 
+2026-02-25 19:46:12,371 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Dropped CONSTRAINT hr_employee_category_name_uniq@hr.employee.category 
+2026-02-25 19:46:12,373 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Dropped CONSTRAINT hr_employee_user_uniq@hr.employee 
+2026-02-25 19:46:12,375 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Dropped CONSTRAINT hr_employee_barcode_uniq@hr.employee 
+2026-02-25 19:46:12,376 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Dropped INDEX hr_version_check_unique_date_version@hr.version 
+2026-02-25 19:46:12,378 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Dropped CONSTRAINT hr_version_check_contract_start_date_defined@hr.version 
+2026-02-25 19:46:12,379 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Dropped CONSTRAINT hr_job_no_of_recruitment_positive@hr.job 
+2026-02-25 19:46:12,381 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Dropped CONSTRAINT hr_job_name_company_uniq@hr.job 
+2026-02-25 19:46:12,392 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23395, 23397, 23396, 23391, 23392, 23393, 23394, 26024, 26025, 26026, 24485, 24816, 24817] 
+2026-02-25 19:46:12,393 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [925, 924, 923, 879, 878, 866, 786, 785, 784, 783, 782, 781, 780] 
+2026-02-25 19:46:12,405 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.fields.selection(1232, 1231, 1230, 1229, 1228, 1227, 1226, 1225, 1224, 1223, 1222, 1221, 1220, 1219, 1218, 1217, 1216, 1215, 1214, 1213, 1212, 1211, 1210, 1209, 1208, 1207, 1206, 1205, 1204, 1203, 1202, 1201, 1200, 1199, 1198, 1187, 1186, 1185, 1184, 1183, 1182, 1181, 1180, 1179, 1178, 1177, 1171, 1170, 1169, 1168, 1167, 1166, 1165, 1164, 1163, 1162, 1161, 1160, 1159, 1158, 1157, 1156, 1150, 1149, 1148, 1147, 1146, 1145, 1144, 1143, 1142, 1141, 1140) 
+2026-02-25 19:46:12,415 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.fields.selection(1232, 1231, 1230, 1229, 1228, 1227, 1226, 1225, 1224, 1223, 1222, 1221, 1220, 1219, 1218, 1217, 1216, 1215, 1214, 1213, 1212, 1211, 1210, 1209, 1208, 1207, 1206, 1205, 1204, 1203, 1202, 1201, 1200, 1199, 1198, 1187) 
+2026-02-25 19:46:12,432 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [25921, 25923, 25922, 25924, 25929, 25925, 25927, 25926, 25928, 25919, 25920, 25918, 25931, 25932, 25930, 25933, 25934, 25939, 25940, 25937, 25936, 25938, 25935, 25941, 25942, 25964, 25963, 26001, 26000, 25999, 25996, 25997, 25998, 26003, 26002, 24813] 
+2026-02-25 19:46:12,433 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.fields.selection records with IDs: [1232, 1231, 1230, 1229, 1228, 1227, 1226, 1225, 1224, 1223, 1222, 1221, 1220, 1219, 1218, 1217, 1216, 1215, 1214, 1213, 1212, 1211, 1210, 1209, 1208, 1207, 1206, 1205, 1204, 1203, 1202, 1201, 1200, 1199, 1198, 1187] 
+2026-02-25 19:46:12,441 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.fields.selection(1186, 1185, 1184, 1183, 1182, 1181, 1180, 1179, 1178, 1177, 1171, 1170, 1169, 1168, 1167, 1166, 1165, 1164, 1163, 1162, 1161, 1160, 1159, 1158, 1157, 1156, 1150, 1149, 1148, 1147, 1146, 1145, 1144, 1143, 1142, 1141, 1140) 
+2026-02-25 19:46:12,448 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.fields.selection(1186, 1185, 1184, 1183, 1182, 1181, 1180, 1179, 1178, 1177, 1171, 1170, 1169, 1168, 1167, 1166, 1165, 1164) 
+2026-02-25 19:46:12,455 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.fields.selection(1186, 1185, 1184, 1183, 1182, 1181, 1180, 1179, 1178) 
+2026-02-25 19:46:12,462 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.fields.selection(1186, 1185, 1184, 1183) 
+2026-02-25 19:46:12,467 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.fields.selection(1186, 1185) 
+2026-02-25 19:46:12,477 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23845, 23846] 
+2026-02-25 19:46:12,478 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.fields.selection records with IDs: [1186, 1185] 
+2026-02-25 19:46:12,485 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.fields.selection(1184, 1183) 
+2026-02-25 19:46:12,490 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.fields.selection(1184,) 
+2026-02-25 19:46:12,499 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [23844] 
+2026-02-25 19:46:12,500 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.fields.selection records with IDs: [1184] 
+2026-02-25 19:46:12,506 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.fields.selection(1183,) 
+2026-02-25 19:46:12,518 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [22274] 
+2026-02-25 19:46:12,519 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.fields.selection records with IDs: [1183] 
+2026-02-25 19:46:12,525 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.fields.selection(1182, 1181, 1180, 1179, 1178) 
+2026-02-25 19:46:12,531 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.fields.selection(1182, 1181) 
+2026-02-25 19:46:12,543 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [22270, 22269] 
+2026-02-25 19:46:12,544 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.fields.selection records with IDs: [1182, 1181] 
+2026-02-25 19:46:12,551 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.fields.selection(1180, 1179, 1178) 
+2026-02-25 19:46:12,558 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.fields.selection(1180,) 
+2026-02-25 19:46:12,570 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [22268] 
+2026-02-25 19:46:12,571 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.fields.selection records with IDs: [1180] 
+2026-02-25 19:46:12,578 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.fields.selection(1179, 1178) 
+2026-02-25 19:46:12,589 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [22259, 22260] 
+2026-02-25 19:46:12,590 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.fields.selection records with IDs: [1179, 1178] 
+2026-02-25 19:46:12,597 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.fields.selection(1177, 1171, 1170, 1169, 1168, 1167, 1166, 1165, 1164) 
+2026-02-25 19:46:12,610 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [22245, 22246, 22247, 22248, 22250, 22251, 22252, 22249, 22258] 
+2026-02-25 19:46:12,611 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.fields.selection records with IDs: [1177, 1171, 1170, 1169, 1168, 1167, 1166, 1165, 1164] 
+2026-02-25 19:46:12,618 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.fields.selection(1163, 1162, 1161, 1160, 1159, 1158, 1157, 1156, 1150, 1149, 1148, 1147, 1146, 1145, 1144, 1143, 1142, 1141, 1140) 
+2026-02-25 19:46:12,635 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [22243, 22244, 22242, 22241, 22238, 22239, 22240, 22237, 22224, 22225, 22230, 22226, 22231, 22228, 22229, 22227, 22222, 22221, 22223] 
+2026-02-25 19:46:12,636 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.fields.selection records with IDs: [1163, 1162, 1161, 1160, 1159, 1158, 1157, 1156, 1150, 1149, 1148, 1147, 1146, 1145, 1144, 1143, 1142, 1141, 1140] 
+2026-02-25 19:46:12,676 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model.fields(4480, 4479, 4478, 4330, 3620, 4471, 4470, 4469, 4468, 4467, 4466, 4465, 4464, 4463, 4462, 4461, 4460, 4459, 4458, 4457, 4456, 4455, 4454, 4453, 4452, 4451, 4450, 4449, 4448, 4447, 4446, 4445, 4444, 4443, 4442, 4441, 4440, 4439, 4438, 4437, 4436, 4435, 4434, 4433, 4432, 4431, 4430, 4425, 4424, 4423, 4422, 4421, 4420, 4419, 4418, 4417, 4411, 4410, 4409, 4408, 4407, 4406, 4405, 4404, 4403, 4402, 4401, 4400, 4399, 4398, 4397, 4396, 4395, 4394, 4393, 4387, 4386, 4385, 4384, 4383, 4382, 4381, 4380, 4379, 4378, 4377, 4376, 4370, 4369, 4368, 4367, 4366, 4365, 4364, 4363, 4362, 4361, 4360, 4359, 4358, 4357, 4356, 4355, 4354, 4353, 4352, 4351, 4350, 4349, 4348, 4347, 4346, 4345, 4344, 4343, 4342, 4341, 4340, 4339, 4338, 4337, 4336, 4335, 4334, 4333, 4332, 4331, 4328, 4327, 4326, 4325, 4324, 4323, 4322, 4321, 4320, 4319, 4318, 4317, 4316, 4315, 3796, 3520, 4269, 4268, 4267, 4266, 4265, 4264, 4263, 4262, 4261, 4259, 4258, 4257, 4256, 4255, 4254, 4253, 4252, 4251, 4250, 4249, 4247, 4246, 4245, 4244, 4243, 4242, 4240, 4238, 4237, 4236, 4235, 4234, 4233, 4232, 4231, 4230, 4229, 4227, 4222, 4221, 4220, 4219, 4218, 4217, 4216, 4215, 4214, 4208, 4207, 4206, 4205, 4204, 4203, 4197, 4196, 4195, 4194, 4193, 4192, 4191, 4190, 4189, 4188, 4187, 4186, 4185, 4179, 4178, 4177, 4176, 4175, 4174, 4173, 4172, 4171, 4170, 4169, 4168, 4167, 4165, 4164, 4163, 4162, 4161, 4160, 4159, 4158, 4157, 4156, 4155, 4154, 4148, 4147, 4146, 4145, 4144, 4138, 4137, 4136, 4135, 4134, 4128, 4127, 4126, 4125, 4124, 4123, 4122, 4121, 4120, 4119, 4118, 4117, 4116, 4115, 4114, 4113, 4112, 4111, 4109, 4108, 4107, 4106, 4105, 4104, 4103, 4102, 4101, 4100, 4099, 4098, 4097, 4096, 3488, 4095, 4094, 4093, 4092, 4091, 4090, 4089, 4088, 4087, 4086, 4085, 4084, 4083, 4082, 4081, 4080, 4079, 4078, 4077, 4076, 4075, 4074, 4073, 4072, 4071, 4070, 4069, 4068, 4067, 4066, 4065, 4064, 4063, 4062, 4057, 4056, 4055, 4054, 4053, 4052, 4051, 4050, 3906, 3673, 4048, 4047, 4046, 4040, 4039, 4038, 4032, 4031, 4030, 4029, 4028, 4027, 4026, 4025, 4024, 4018, 4017, 4015, 4014, 4009, 4008, 4007, 4006, 4005, 4004, 4003, 4002, 4000, 3999, 3998, 3997, 3996, 3995, 3994, 3993, 3991, 3990, 3989, 3988, 3987, 3986, 3985, 3984, 3983, 3982, 3981, 3980, 3979, 3978, 3977, 3975, 3974, 3973, 3972, 3971, 3970, 3969, 3968, 3967, 3966, 3964, 3963, 3962, 3961, 3960, 3959, 3958, 3957, 3955, 3954, 3953, 3952, 3951, 3950, 3949, 3948, 3947, 3946, 3945, 3944, 3943, 3942, 3941, 3940, 3939, 3938, 3937, 3936, 3935, 3934, 3933, 3932, 3931, 3930, 3929, 3928, 3927, 3926, 3925, 3924, 3923, 3922, 3921, 3920, 3919, 3918, 3917, 3912, 3911, 3910, 3909, 3908, 3907, 3900, 3899, 3898, 3897, 3896, 3890, 3889, 3888, 3887, 3886, 3885, 3884, 3883, 3882, 3881, 3880, 3879, 3878, 3877, 3876, 3875, 3874, 3873, 3872, 3871, 3870, 3869, 3868, 3867, 3866, 3865, 3864, 3863, 3862, 3861, 3860, 3859, 3858, 3857, 3856, 3855, 3854, 3853, 3852, 3851, 3846, 3845, 3844, 3843, 3842, 3841, 3840, 3839, 3838, 3837, 3836, 3835, 3834, 3833, 3832, 3831, 3830, 3829, 3828, 3827, 3826, 3825, 3824, 3823, 3822, 3821, 3820, 3819, 3818, 3817, 3816, 3815, 3814, 3813, 3812, 3811, 3810, 3809, 3808, 3807, 3806, 3805, 3804, 3803, 3802, 3801, 3800, 3799, 3798, 3790, 3789, 3788, 3787, 3785, 3783, 3782, 3781, 3780, 3779, 3778, 3777, 3776, 3775, 3774, 3773, 3772, 3771, 3770, 3769, 3768, 3767, 3766, 3765, 3764, 3763, 3762, 3761, 3760, 3759, 3758, 3757, 3756, 3755, 3754, 3753, 3752, 3751, 3750, 3749, 3748, 3747, 3746, 3745, 3744, 3743, 3742, 3741, 3736, 3735, 3734, 3733, 3732, 3731, 3730, 3729, 3728, 3727, 3726, 3725, 3724, 3723, 3722, 3721, 3720, 3719, 3718, 3717, 3716, 3715, 3714, 3713, 3712, 3711, 3710, 3709, 3708, 3707, 3706, 3705, 3704, 3703, 3702, 3701, 3700, 3699, 3698, 3697, 3696, 3695, 3694, 3693, 3692, 3691, 3690, 3689, 3688, 3687, 3686, 3685, 3684, 3683, 3682, 3681, 3680, 3679, 3678, 3677, 3676, 3675, 3674, 3672, 3671, 3670, 3669, 3668, 3667, 3666, 3665, 3664, 3663, 3662, 3661, 3660, 3659, 3658, 3657, 3656, 3655, 3654, 3653, 3652, 3651, 3650, 3649, 3648, 3647, 3646, 3645, 3644, 3643, 3642, 3641, 3640, 3639, 3638, 3637, 3636, 3635, 3634, 3633, 3632, 3631, 3630, 3629, 3628, 3627, 3626, 3625, 3624, 3623, 3622, 3621, 3614, 3613, 3612, 3611, 3610, 3604, 3603, 3602, 3601, 3600, 3599, 3598, 3597, 3596, 3595, 3594, 3593, 3592, 3591, 3590, 3589, 3588, 3587, 3586, 3585, 3584, 3583, 3582, 3581, 3580, 3579, 3578, 3577, 3576, 3575, 3574, 3573, 3572, 3571, 3570, 3569, 3568, 3567, 3566, 3565, 3564, 3563, 3562, 3561, 3560, 3559, 3558, 3557, 3556, 3555, 3554, 3553, 3552, 3551, 3550, 3549, 3548, 3547, 3546, 3545, 3544, 3543, 3542, 3541, 3540, 3539, 3538, 3537, 3536, 3535, 3534, 3533, 3532, 3531, 3530, 3529, 3528, 3527, 3526, 3525, 3524, 3523, 3522, 3521, 3514, 3513, 3512, 3511, 3510, 3509, 3508, 3507, 3506, 3505, 3504, 3503, 3502, 3501, 3500, 3499, 3498, 3497, 3496, 3495, 3494, 3493, 3492, 3491, 3490, 3489, 3482, 3481, 3480, 3479, 3478) 
+2026-02-25 19:46:14,424 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [2156, 22090, 22207, 22205, 22206, 22194, 22195, 22196, 22193, 22191, 22199, 22197, 22198, 22192, 21783, 21785, 21781, 21782, 21784, 22047, 22028, 22031, 22032, 22023, 22024, 22030, 22027, 22026, 22025, 22050, 22059, 22048, 22046, 22022, 22037, 22053, 22055, 22051, 22061, 22052, 22042, 22034, 22040, 22041, 22044, 22036, 22033, 22038, 22039, 22035, 22029, 22045, 22058, 22049, 22060, 22056, 22057, 22054, 22043, 22071, 22070, 22067, 22069, 22068, 22172, 22171, 22170, 22169, 22173, 22174, 22175, 22176, 21847, 21950, 21811, 21814, 21815, 21806, 21807, 21813, 21810, 21809, 21808, 21953, 21942, 21925, 21798, 21801, 21797, 21800, 21799, 21864, 21900, 21861, 21862, 21863, 21898, 21876, 21896, 21935, 21897, 21899, 21849, 21848, 21803, 21884, 21883, 21949, 21894, 21886, 21952, 21916, 21860, 21905, 21831, 21830, 21888, 21887, 21913, 21937, 21946, 21945, 21944, 21791, 21929, 21931, 21903, 21840, 21879, 21880, 21912, 21907, 21936, 21820, 21867, 21873, 21844, 21841, 21954, 21902, 21917, 21839, 21793, 21796, 21792, 21795, 21794, 21889, 21941, 21947, 21948, 21891, 21892, 21890, 21865, 21855, 21939, 21940, 21930, 21858, 21842, 21843, 21915, 21914, 21854, 21932, 21938, 21825, 21817, 21823, 21824, 21827, 21819, 21816, 21828, 21821, 21822, 21818, 21851, 21812, 21834, 21846, 21895, 21920, 21919, 21869, 21838, 21901, 21859, 21866, 21904, 21924, 21928, 21857, 21856, 21926, 21922, 21923, 21927, 21906, 21804, 21802, 21868, 21921, 21837, 21845, 21934, 21933, 21918, 21893, 21877, 21878, 21885, 21805, 21835, 21836, 21829, 21832, 21833, 21871, 21870, 21951, 21826, 21853, 21852, 21943, 21881, 21882, 21872, 21875, 21874, 21850, 21960, 21958, 21961, 21959, 21970, 21976, 22009, 22012, 22008, 22011, 22010, 22016, 22002, 22014, 21991, 21975, 21998, 21971, 21967, 21983, 22001, 21993, 21992, 21982, 22004, 22007, 22003, 22006, 22005, 21999, 22000, 21973, 21974, 21995, 21996, 21972, 21977, 21969, 22017, 22013, 21981, 21997, 21989, 21980, 21994, 21990, 21988, 22015, 21984, 21979, 21985, 21986, 21987, 21978, 21672, 21682, 21684, 21685, 21683, 21679, 21659, 21678, 21675, 21664, 21669, 21661, 21667, 21668, 21671, 21663, 21660, 21665, 21666, 21662, 21673, 21676, 21677, 21680, 21674, 21681, 21670, 22213, 22214, 22215, 21956, 21653, 21652, 21651, 21649, 21650, 21717, 21767, 21697, 21700, 21701, 21692, 21693, 21699, 21696, 21695, 21694, 21774, 21747, 21730, 21740, 21771, 21714, 21757, 21756, 21765, 21773, 21770, 21772, 21721, 21768, 21760, 21759, 21718, 21742, 21751, 21750, 21749, 21691, 21734, 21736, 21715, 21741, 21706, 21775, 21722, 21761, 21746, 21753, 21754, 21763, 21764, 21762, 21744, 21745, 21735, 21720, 21719, 21737, 21743, 21711, 21703, 21709, 21710, 21713, 21705, 21702, 21707, 21708, 21704, 21698, 21716, 21725, 21724, 21729, 21733, 21731, 21727, 21728, 21732, 21752, 21726, 21739, 21738, 21723, 21766, 21758, 21755, 21769, 21712, 21748, 22185, 22184, 22078, 22082, 22080, 22077, 22083, 22081, 22079, 22089, 22088, 22181, 22182, 22143, 22138, 22142, 22140, 22136, 22141, 22137, 22139, 22144, 22100, 22095, 22098, 22096, 22099, 22094, 22097, 22092, 22093, 22091, 22101, 22145, 22146, 22150, 22152, 22153, 22154, 22151, 22147, 22148, 22149, 22158, 22159, 22155, 22156, 22157, 22126, 22130, 22108, 22131, 22132, 22123, 22124, 21627, 22122, 22128, 22103, 22102, 22129, 22135, 22134, 22133, 22104, 22121, 22106, 22127, 22115, 22118, 22120, 22119, 22116, 22113, 22114, 22117, 22125, 22109, 22107, 22110, 22111, 22112, 22105, 22162, 22160, 22167, 22161, 22166, 22164, 22163, 22165, 25788, 25790, 25791, 25794, 25792, 25786, 25811, 25772, 25785, 25810, 25777, 25802, 25801, 25798, 25800, 25799, 25803, 25789, 25812, 25787, 25782, 25774, 25780, 25781, 25784, 25776, 25773, 25778, 25779, 25775, 25808, 25807, 25804, 25806, 25805, 25809, 25795, 25796, 25797, 25783, 25793, 25827, 25820, 25821, 25818, 25823, 25819, 25828, 25824, 25829, 25822, 25825, 25826, 25850, 25838, 25848, 25837, 25835, 25851, 25852, 25844, 25842, 25853, 25836, 25849, 25845, 25843, 25847, 25846, 25840, 25841, 25839, 25867, 25863, 25864, 25861, 25859, 25860, 25865, 25862, 25866, 25873, 25872, 25877, 25886, 25754, 25878, 25883, 25879, 25881, 25880, 25874, 25882, 25875, 25876, 25884, 25887, 25885, 25894, 25888, 25897, 25756, 25890, 25891, 25889, 25892, 25895, 25896, 25893, 25752, 25898, 25912, 25903, 25913, 25908, 25904, 25905, 25902, 25906, 25907, 25909, 25910, 25911, 25901, 25899, 25900, 25769, 25761, 25770, 25765, 25762, 25760, 25763, 25764, 25766, 25767, 25768, 25759, 25757, 25758, 23787, 23813, 23810, 23788, 23806, 23811, 23812, 23809, 23814, 23807, 23808, 23800, 23801, 23794, 23798, 23799, 23795, 23796, 23797, 23790, 23819, 23815, 23820, 23821, 23818, 23822, 23816, 23817, 23792, 23827, 23823, 23828, 23829, 23826, 23824, 23825, 24529, 24531, 24530, 24526, 24533, 24532, 24534, 24536, 24535, 24528, 24538, 24537, 24615, 24613, 24616, 24608, 24612, 24611, 24614, 24753, 24747, 24748, 24744, 24745, 24746, 24752, 24749, 24751, 24750, 24783, 24784, 24778, 24779, 24776, 24777, 24781, 24782, 24780, 24620, 24619, 24621, 24610, 24618, 24617, 24691, 24687, 24682, 24693, 24694, 24692, 24686, 24690, 24683, 24684, 24685, 24688, 24689, 24759, 24757, 24758, 24762, 24760, 24761, 24774, 24767, 24768, 24764, 24765, 24766, 24769, 24773, 24770, 24772, 24771, 24678, 24674, 24669, 24680, 24679, 24673, 24677, 24670, 24671, 24672, 24675, 24676, 24623, 24606, 24622, 24624, 24709, 24705, 24700, 24711, 24710, 24712, 24704, 24708, 24701, 24702, 24703, 24706, 24707, 24628, 24642, 24641, 24639, 24629, 24638, 24633, 24632, 24630, 24635, 24626, 24634, 24627, 24640, 24637, 24636, 24631, 24643, 24649, 24652, 24650, 24653, 24651, 24663, 24659, 24660, 24661, 24662, 24722, 24718, 24721, 24720, 24719, 24723, 24730, 24735, 24729, 24737, 24736, 24732, 24731, 24733, 24734, 24755, 24742, 26247, 26250, 26245, 26248, 26249] 
+2026-02-25 19:46:14,427 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.fields records with IDs: [4480, 4479, 4478, 4330, 3620, 4471, 4470, 4469, 4468, 4467, 4466, 4465, 4464, 4463, 4462, 4461, 4460, 4459, 4458, 4457, 4456, 4455, 4454, 4453, 4452, 4451, 4450, 4449, 4448, 4447, 4446, 4445, 4444, 4443, 4442, 4441, 4440, 4439, 4438, 4437, 4436, 4435, 4434, 4433, 4432, 4431, 4430, 4425, 4424, 4423, 4422, 4421, 4420, 4419, 4418, 4417, 4411, 4410, 4409, 4408, 4407, 4406, 4405, 4404, 4403, 4402, 4401, 4400, 4399, 4398, 4397, 4396, 4395, 4394, 4393, 4387, 4386, 4385, 4384, 4383, 4382, 4381, 4380, 4379, 4378, 4377, 4376, 4370, 4369, 4368, 4367, 4366, 4365, 4364, 4363, 4362, 4361, 4360, 4359, 4358, 4357, 4356, 4355, 4354, 4353, 4352, 4351, 4350, 4349, 4348, 4347, 4346, 4345, 4344, 4343, 4342, 4341, 4340, 4339, 4338, 4337, 4336, 4335, 4334, 4333, 4332, 4331, 4328, 4327, 4326, 4325, 4324, 4323, 4322, 4321, 4320, 4319, 4318, 4317, 4316, 4315, 3796, 3520, 4269, 4268, 4267, 4266, 4265, 4264, 4263, 4262, 4261, 4259, 4258, 4257, 4256, 4255, 4254, 4253, 4252, 4251, 4250, 4249, 4247, 4246, 4245, 4244, 4243, 4242, 4240, 4238, 4237, 4236, 4235, 4234, 4233, 4232, 4231, 4230, 4229, 4227, 4222, 4221, 4220, 4219, 4218, 4217, 4216, 4215, 4214, 4208, 4207, 4206, 4205, 4204, 4203, 4197, 4196, 4195, 4194, 4193, 4192, 4191, 4190, 4189, 4188, 4187, 4186, 4185, 4179, 4178, 4177, 4176, 4175, 4174, 4173, 4172, 4171, 4170, 4169, 4168, 4167, 4165, 4164, 4163, 4162, 4161, 4160, 4159, 4158, 4157, 4156, 4155, 4154, 4148, 4147, 4146, 4145, 4144, 4138, 4137, 4136, 4135, 4134, 4128, 4127, 4126, 4125, 4124, 4123, 4122, 4121, 4120, 4119, 4118, 4117, 4116, 4115, 4114, 4113, 4112, 4111, 4109, 4108, 4107, 4106, 4105, 4104, 4103, 4102, 4101, 4100, 4099, 4098, 4097, 4096, 3488, 4095, 4094, 4093, 4092, 4091, 4090, 4089, 4088, 4087, 4086, 4085, 4084, 4083, 4082, 4081, 4080, 4079, 4078, 4077, 4076, 4075, 4074, 4073, 4072, 4071, 4070, 4069, 4068, 4067, 4066, 4065, 4064, 4063, 4062, 4057, 4056, 4055, 4054, 4053, 4052, 4051, 4050, 3906, 3673, 4048, 4047, 4046, 4040, 4039, 4038, 4032, 4031, 4030, 4029, 4028, 4027, 4026, 4025, 4024, 4018, 4017, 4015, 4014, 4009, 4008, 4007, 4006, 4005, 4004, 4003, 4002, 4000, 3999, 3998, 3997, 3996, 3995, 3994, 3993, 3991, 3990, 3989, 3988, 3987, 3986, 3985, 3984, 3983, 3982, 3981, 3980, 3979, 3978, 3977, 3975, 3974, 3973, 3972, 3971, 3970, 3969, 3968, 3967, 3966, 3964, 3963, 3962, 3961, 3960, 3959, 3958, 3957, 3955, 3954, 3953, 3952, 3951, 3950, 3949, 3948, 3947, 3946, 3945, 3944, 3943, 3942, 3941, 3940, 3939, 3938, 3937, 3936, 3935, 3934, 3933, 3932, 3931, 3930, 3929, 3928, 3927, 3926, 3925, 3924, 3923, 3922, 3921, 3920, 3919, 3918, 3917, 3912, 3911, 3910, 3909, 3908, 3907, 3900, 3899, 3898, 3897, 3896, 3890, 3889, 3888, 3887, 3886, 3885, 3884, 3883, 3882, 3881, 3880, 3879, 3878, 3877, 3876, 3875, 3874, 3873, 3872, 3871, 3870, 3869, 3868, 3867, 3866, 3865, 3864, 3863, 3862, 3861, 3860, 3859, 3858, 3857, 3856, 3855, 3854, 3853, 3852, 3851, 3846, 3845, 3844, 3843, 3842, 3841, 3840, 3839, 3838, 3837, 3836, 3835, 3834, 3833, 3832, 3831, 3830, 3829, 3828, 3827, 3826, 3825, 3824, 3823, 3822, 3821, 3820, 3819, 3818, 3817, 3816, 3815, 3814, 3813, 3812, 3811, 3810, 3809, 3808, 3807, 3806, 3805, 3804, 3803, 3802, 3801, 3800, 3799, 3798, 3790, 3789, 3788, 3787, 3785, 3783, 3782, 3781, 3780, 3779, 3778, 3777, 3776, 3775, 3774, 3773, 3772, 3771, 3770, 3769, 3768, 3767, 3766, 3765, 3764, 3763, 3762, 3761, 3760, 3759, 3758, 3757, 3756, 3755, 3754, 3753, 3752, 3751, 3750, 3749, 3748, 3747, 3746, 3745, 3744, 3743, 3742, 3741, 3736, 3735, 3734, 3733, 3732, 3731, 3730, 3729, 3728, 3727, 3726, 3725, 3724, 3723, 3722, 3721, 3720, 3719, 3718, 3717, 3716, 3715, 3714, 3713, 3712, 3711, 3710, 3709, 3708, 3707, 3706, 3705, 3704, 3703, 3702, 3701, 3700, 3699, 3698, 3697, 3696, 3695, 3694, 3693, 3692, 3691, 3690, 3689, 3688, 3687, 3686, 3685, 3684, 3683, 3682, 3681, 3680, 3679, 3678, 3677, 3676, 3675, 3674, 3672, 3671, 3670, 3669, 3668, 3667, 3666, 3665, 3664, 3663, 3662, 3661, 3660, 3659, 3658, 3657, 3656, 3655, 3654, 3653, 3652, 3651, 3650, 3649, 3648, 3647, 3646, 3645, 3644, 3643, 3642, 3641, 3640, 3639, 3638, 3637, 3636, 3635, 3634, 3633, 3632, 3631, 3630, 3629, 3628, 3627, 3626, 3625, 3624, 3623, 3622, 3621, 3614, 3613, 3612, 3611, 3610, 3604, 3603, 3602, 3601, 3600, 3599, 3598, 3597, 3596, 3595, 3594, 3593, 3592, 3591, 3590, 3589, 3588, 3587, 3586, 3585, 3584, 3583, 3582, 3581, 3580, 3579, 3578, 3577, 3576, 3575, 3574, 3573, 3572, 3571, 3570, 3569, 3568, 3567, 3566, 3565, 3564, 3563, 3562, 3561, 3560, 3559, 3558, 3557, 3556, 3555, 3554, 3553, 3552, 3551, 3550, 3549, 3548, 3547, 3546, 3545, 3544, 3543, 3542, 3541, 3540, 3539, 3538, 3537, 3536, 3535, 3534, 3533, 3532, 3531, 3530, 3529, 3528, 3527, 3526, 3525, 3524, 3523, 3522, 3521, 3514, 3513, 3512, 3511, 3510, 3509, 3508, 3507, 3506, 3505, 3504, 3503, 3502, 3501, 3500, 3499, 3498, 3497, 3496, 3495, 3494, 3493, 3492, 3491, 3490, 3489, 3482, 3481, 3480, 3479, 3478, 1323] 
+2026-02-25 19:46:14,449 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.relation records with IDs: [55, 56, 57, 58, 59, 60, 61, 62] 
+2026-02-25 19:46:14,456 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Dropped table hr_attendance_overtime_line_hr_attendance_overtime_rule_rel 
+2026-02-25 19:46:14,458 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Dropped table hr_employee_hr_employee_cv_wizard_rel 
+2026-02-25 19:46:14,459 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Dropped table hr_job_hr_skill_rel 
+2026-02-25 19:46:14,461 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Dropped table hr_employee_hr_skill_rel 
+2026-02-25 19:46:14,463 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Dropped table hr_departure_wizard_hr_employee_rel 
+2026-02-25 19:46:14,464 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Dropped table discuss_channel_hr_department_rel 
+2026-02-25 19:46:14,466 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Dropped table employee_category_rel 
+2026-02-25 19:46:14,467 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Dropped table employee_bank_account_rel 
+2026-02-25 19:46:14,472 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: Deleting ir.model(429, 398, 432, 431, 430, 401, 396, 423, 422, 421, 420, 419, 418, 417, 416, 415, 414, 413, 412, 411, 395, 410, 404, 409, 408, 407, 406, 405, 403, 402, 400, 399, 397, 394) 
+2026-02-25 19:46:14,723 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [21611, 21610, 21600, 21605, 21606, 21608, 21601, 21603, 21604, 21598, 21612, 21602, 21597, 21599, 21609, 21607, 25739, 25740, 25741, 25742, 25737, 25738, 25736, 23778, 23781, 23779, 23780, 24523, 24524, 24588, 24598, 24602, 24589, 24594, 24600, 24601, 24593, 24587, 24595, 24590, 24591, 24592, 24596, 24597, 24599, 26243, 26242] 
+2026-02-25 19:46:14,724 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model records with IDs: [429, 398, 432, 431, 430, 401, 396, 423, 422, 421, 420, 419, 418, 417, 416, 415, 414, 413, 412, 411, 395, 410, 404, 409, 408, 407, 406, 405, 403, 402, 400, 399, 397, 394] 
+2026-02-25 19:46:14,733 75393 INFO wsi_2026 odoo.addons.base.models.ir_model: ir.model.data could not be deleted ([]) 
+2026-02-25 19:46:14,825 75393 INFO wsi_2026 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [26394, 26393, 26392, 26391, 26390, 26389, 26388, 26387, 26386, 26385, 26384, 26383, 26382, 26381, 26380, 26379, 26378, 26377, 26376, 26375, 26374, 26373, 26371, 26370, 26366, 26365, 26363, 26361, 26360, 26359, 26358, 26357, 26356, 26350, 26349, 26348, 26347, 26346, 26345, 26344, 26343, 26342, 26334, 26333, 26332, 26317, 26316, 26315, 26314, 26313, 26312, 26311, 26310, 26309, 26308, 26307, 26306, 26305, 26304, 26303, 26302, 26301, 26300, 26299, 26250, 26249, 26248, 26247, 26246, 26245, 26244, 26243, 26242, 26125, 26124, 26123, 26122, 26121, 26120, 26119, 26118, 26117, 26116, 26115, 26114, 26113, 26112, 26111, 26110, 26109, 26108, 26107, 26106, 26105, 26104, 26103, 26102, 26101, 26100, 26099, 26098, 26097, 26096, 26095, 26094, 26093, 26092, 26091, 26090, 26089, 26088, 26087, 26086, 26085, 26084, 26083, 26082, 26081, 26080, 26079, 26078, 26077, 26076, 26075, 26074, 26073, 26072, 26071, 26070, 26069, 26068, 26067, 26066, 26065, 26064, 26063, 26062, 26061, 26059, 26058, 26057, 26056, 26055, 26054, 26053, 26052, 26051, 26030, 26026, 26025, 26024, 26003, 26002, 26001, 26000, 25999, 25998, 25997, 25996, 25964, 25963, 25942, 25941, 25940, 25939, 25938, 25937, 25936, 25935, 25934, 25933, 25932, 25931, 25930, 25929, 25928, 25927, 25926, 25925, 25924, 25923, 25922, 25921, 25920, 25919, 25918, 25913, 25912, 25911, 25910, 25909, 25908, 25907, 25906, 25905, 25904, 25903, 25902, 25901, 25900, 25899, 25898, 25897, 25896, 25895, 25894, 25893, 25892, 25891, 25890, 25889, 25888, 25887, 25886, 25885, 25884, 25883, 25882, 25881, 25880, 25879, 25878, 25877, 25876, 25875, 25874, 25873, 25872, 25871, 25870, 25869, 25868, 25867, 25866, 25865, 25864, 25863, 25862, 25861, 25860, 25859, 25858, 25857, 25856, 25855, 25854, 25853, 25852, 25851, 25850, 25849, 25848, 25847, 25846, 25845, 25844, 25843, 25842, 25841, 25840, 25839, 25838, 25837, 25836, 25835, 25834, 25833, 25832, 25831, 25830, 25829, 25828, 25827, 25826, 25825, 25824, 25823, 25822, 25821, 25820, 25819, 25818, 25817, 25816, 25815, 25814, 25813, 25812, 25811, 25810, 25809, 25808, 25807, 25806, 25805, 25804, 25803, 25802, 25801, 25800, 25799, 25798, 25797, 25796, 25795, 25794, 25793, 25792, 25791, 25790, 25789, 25788, 25787, 25786, 25785, 25784, 25783, 25782, 25781, 25780, 25779, 25778, 25777, 25776, 25775, 25774, 25773, 25772, 25771, 25770, 25769, 25768, 25767, 25766, 25765, 25764, 25763, 25762, 25761, 25760, 25759, 25758, 25757, 25756, 25755, 25754, 25753, 25752, 25751, 25750, 25749, 25748, 25747, 25746, 25745, 25744, 25743, 25742, 25741, 25740, 25739, 25738, 25737, 25736, 25735, 25734, 25733, 25732, 24984, 24983, 24982, 24981, 24980, 24979, 24978, 24977, 24976, 24975, 24974, 24973, 24972, 24971, 24970, 24969, 24968, 24967, 24966, 24965, 24964, 24963, 24962, 24961, 24960, 24959, 24958, 24957, 24956, 24955, 24954, 24953, 24952, 24951, 24950, 24949, 24948, 24947, 24946, 24945, 24944, 24943, 24942, 24941, 24940, 24939, 24938, 24937, 24936, 24935, 24934, 24933, 24932, 24931, 24930, 24929, 24928, 24927, 24926, 24925, 24924, 24923, 24922, 24921, 24920, 24919, 24918, 24917, 24916, 24915, 24914, 24913, 24912, 24911, 24910, 24909, 24908, 24907, 24906, 24905, 24904, 24903, 24902, 24901, 24900, 24899, 24898, 24897, 24896, 24895, 24894, 24893, 24892, 24891, 24890, 24889, 24888, 24887, 24886, 24885, 24884, 24883, 24882, 24881, 24880, 24879, 24878, 24877, 24876, 24875, 24874, 24873, 24872, 24871, 24870, 24869, 24868, 24867, 24866, 24865, 24864, 24863, 24862, 24861, 24860, 24859, 24858, 24857, 24856, 24855, 24854, 24853, 24852, 24851, 24850, 24849, 24848, 24847, 24846, 24845, 24844, 24843, 24842, 24841, 24840, 24839, 24838, 24837, 24836, 24835, 24834, 24833, 24832, 24817, 24816, 24813, 24788, 24787, 24786, 24785, 24784, 24783, 24782, 24781, 24780, 24779, 24778, 24777, 24776, 24775, 24774, 24773, 24772, 24771, 24770, 24769, 24768, 24767, 24766, 24765, 24764, 24763, 24762, 24761, 24760, 24759, 24758, 24757, 24756, 24755, 24754, 24753, 24752, 24751, 24750, 24749, 24748, 24747, 24746, 24745, 24744, 24743, 24742, 24741, 24740, 24739, 24738, 24737, 24736, 24735, 24734, 24733, 24732, 24731, 24730, 24729, 24728, 24727, 24726, 24725, 24724, 24723, 24722, 24721, 24720, 24719, 24718, 24717, 24716, 24715, 24714, 24713, 24712, 24711, 24710, 24709, 24708, 24707, 24706, 24705, 24704, 24703, 24702, 24701, 24700, 24699, 24698, 24697, 24696, 24695, 24694, 24693, 24692, 24691, 24690, 24689, 24688, 24687, 24686, 24685, 24684, 24683, 24682, 24681, 24680, 24679, 24678, 24677, 24676, 24675, 24674, 24673, 24672, 24671, 24670, 24669, 24668, 24667, 24666, 24665, 24664, 24663, 24662, 24661, 24660, 24659, 24658, 24657, 24656, 24655, 24654, 24653, 24652, 24651, 24650, 24649, 24648, 24647, 24646, 24645, 24644, 24643, 24642, 24641, 24640, 24639, 24638, 24637, 24636, 24635, 24634, 24633, 24632, 24631, 24630, 24629, 24628, 24627, 24626, 24625, 24624, 24623, 24622, 24621, 24620, 24619, 24618, 24617, 24616, 24615, 24614, 24613, 24612, 24611, 24610, 24609, 24608, 24607, 24606, 24605, 24604, 24603, 24602, 24601, 24600, 24599, 24598, 24597, 24596, 24595, 24594, 24593, 24592, 24591, 24590, 24589, 24588, 24587, 24586, 24585, 24584, 24583, 24582, 24581, 24580, 24579, 24578, 24577, 24576, 24575, 24574, 24573, 24538, 24537, 24536, 24535, 24534, 24533, 24532, 24531, 24530, 24529, 24528, 24527, 24526, 24525, 24524, 24523, 24522, 24521, 24520, 24519, 24518, 24517, 24516, 24515, 24514, 24485, 23846, 23845, 23844, 23829, 23828, 23827, 23826, 23825, 23824, 23823, 23822, 23821, 23820, 23819, 23818, 23817, 23816, 23815, 23814, 23813, 23812, 23811, 23810, 23809, 23808, 23807, 23806, 23805, 23804, 23803, 23802, 23801, 23800, 23799, 23798, 23797, 23796, 23795, 23794, 23793, 23792, 23791, 23790, 23789, 23788, 23787, 23786, 23785, 23784, 23783, 23782, 23781, 23780, 23779, 23778, 23777, 23776, 23775, 23774, 23773, 23772, 23771, 23770, 23769, 23768, 23767, 23766, 23765, 23764, 23763, 23762, 23761, 23760, 23759, 23758, 23757, 23756, 23755, 23754, 23753, 23752, 23751, 23750, 23749, 23748, 23747, 23746, 23745, 23744, 23743, 23742, 23741, 23740, 23739, 23738, 23737, 23736, 23735, 23734, 23733, 23732, 23731, 23730, 23729, 23728, 23727, 23726, 23725, 23724, 23723, 23722, 23721, 23720, 23719, 23718, 23717, 23716, 23715, 23714, 23713, 23712, 23711, 23710, 23709, 23708, 23707, 23706, 23705, 23704, 23703, 23702, 23701, 23700, 23699, 23698, 23697, 23696, 23695, 23694, 23693, 23692, 23691, 23690, 23689, 23688, 23687, 23686, 23685, 23684, 23683, 23682, 23681, 23680, 23679, 23678, 23677, 23676, 23675, 23674, 23673, 23672, 23671, 23670, 23669, 23668, 23667, 23666, 23665, 23664, 23663, 23662, 23661, 23660, 23659, 23658, 23657, 23656, 23655, 23654, 23653, 23652, 23651, 23650, 23649, 23648, 23647, 23646, 23645, 23644, 23643, 23642, 23641, 23640, 23639, 23638, 23637, 23636, 23635, 23634, 23633, 23632, 23631, 23630, 23629, 23628, 23627, 23626, 23625, 23624, 23623, 23622, 23621, 23620, 23619, 23618, 23617, 23616, 23615, 23614, 23613, 23612, 23611, 23610, 23609, 23608, 23607, 23606, 23605, 23604, 23603, 23602, 23601, 23600, 23599, 23598, 23597, 23596, 23595, 23594, 23593, 23592, 23591, 23590, 23589, 23588, 23587, 23586, 23585, 23584, 23583, 23582, 23581, 23580, 23579, 23578, 23577, 23576, 23421, 23420, 23416, 23415, 23414, 23413, 23412, 23406, 23405, 23401, 23397, 23396, 23395, 23394, 23393, 23392, 23391, 22274, 22270, 22269, 22268, 22260, 22259, 22258, 22252, 22251, 22250, 22249, 22248, 22247, 22246, 22245, 22244, 22243, 22242, 22241, 22240, 22239, 22238, 22237, 22231, 22230, 22229, 22228, 22227, 22226, 22225, 22224, 22223, 22222, 22221, 22215, 22214, 22213, 22212, 22211, 22210, 22209, 22208, 22207, 22206, 22205, 22204, 22203, 22202, 22201, 22200, 22199, 22198, 22197, 22196, 22195, 22194, 22193, 22192, 22191, 22190, 22189, 22188, 22187, 22186, 22185, 22184, 22183, 22182, 22181, 22180, 22179, 22178, 22177, 22176, 22175, 22174, 22173, 22172, 22171, 22170, 22169, 22168, 22167, 22166, 22165, 22164, 22163, 22162, 22161, 22160, 22159, 22158, 22157, 22156, 22155, 22154, 22153, 22152, 22151, 22150, 22149, 22148, 22147, 22146, 22145, 22144, 22143, 22142, 22141, 22140, 22139, 22138, 22137, 22136, 22135, 22134, 22133, 22132, 22131, 22130, 22129, 22128, 22127, 22126, 22125, 22124, 22123, 22122, 22121, 22120, 22119, 22118, 22117, 22116, 22115, 22114, 22113, 22112, 22111, 22110, 22109, 22108, 22107, 22106, 22105, 22104, 22103, 22102, 22101, 22100, 22099, 22098, 22097, 22096, 22095, 22094, 22093, 22092, 22091, 22090, 22089, 22088, 22087, 22086, 22085, 22084, 22083, 22082, 22081, 22080, 22079, 22078, 22077, 22076, 22075, 22074, 22073, 22072, 22071, 22070, 22069, 22068, 22067, 22066, 22065, 22064, 22063, 22062, 22061, 22060, 22059, 22058, 22057, 22056, 22055, 22054, 22053, 22052, 22051, 22050, 22049, 22048, 22047, 22046, 22045, 22044, 22043, 22042, 22041, 22040, 22039, 22038, 22037, 22036, 22035, 22034, 22033, 22032, 22031, 22030, 22029, 22028, 22027, 22026, 22025, 22024, 22023, 22022, 22021, 22020, 22019, 22018, 22017, 22016, 22015, 22014, 22013, 22012, 22011, 22010, 22009, 22008, 22007, 22006, 22005, 22004, 22003, 22002, 22001, 22000, 21999, 21998, 21997, 21996, 21995, 21994, 21993, 21992, 21991, 21990, 21989, 21988, 21987, 21986, 21985, 21984, 21983, 21982, 21981, 21980, 21979, 21978, 21977, 21976, 21975, 21974, 21973, 21972, 21971, 21970, 21969, 21968, 21967, 21966, 21965, 21964, 21963, 21962, 21961, 21960, 21959, 21958, 21957, 21956, 21955, 21954, 21953, 21952, 21951, 21950, 21949, 21948, 21947, 21946, 21945, 21944, 21943, 21942, 21941, 21940, 21939, 21938, 21937, 21936, 21935, 21934, 21933, 21932, 21931, 21930, 21929, 21928, 21927, 21926, 21925, 21924, 21923, 21922, 21921, 21920, 21919, 21918, 21917, 21916, 21915, 21914, 21913, 21912, 21911, 21910, 21909, 21908, 21907, 21906, 21905, 21904, 21903, 21902, 21901, 21900, 21899, 21898, 21897, 21896, 21895, 21894, 21893, 21892, 21891, 21890, 21889, 21888, 21887, 21886, 21885, 21884, 21883, 21882, 21881, 21880, 21879, 21878, 21877, 21876, 21875, 21874, 21873, 21872, 21871, 21870, 21869, 21868, 21867, 21866, 21865, 21864, 21863, 21862, 21861, 21860, 21859, 21858, 21857, 21856, 21855, 21854, 21853, 21852, 21851, 21850, 21849, 21848, 21847, 21846, 21845, 21844, 21843, 21842, 21841, 21840, 21839, 21838, 21837, 21836, 21835, 21834, 21833, 21832, 21831, 21830, 21829, 21828, 21827, 21826, 21825, 21824, 21823, 21822, 21821, 21820, 21819, 21818, 21817, 21816, 21815, 21814, 21813, 21812, 21811, 21810, 21809, 21808, 21807, 21806, 21805, 21804, 21803, 21802, 21801, 21800, 21799, 21798, 21797, 21796, 21795, 21794, 21793, 21792, 21791, 21790, 21789, 21788, 21787, 21786, 21785, 21784, 21783, 21782, 21781, 21780, 21779, 21778, 21777, 21776, 21775, 21774, 21773, 21772, 21771, 21770, 21769, 21768, 21767, 21766, 21765, 21764, 21763, 21762, 21761, 21760, 21759, 21758, 21757, 21756, 21755, 21754, 21753, 21752, 21751, 21750, 21749, 21748, 21747, 21746, 21745, 21744, 21743, 21742, 21741, 21740, 21739, 21738, 21737, 21736, 21735, 21734, 21733, 21732, 21731, 21730, 21729, 21728, 21727, 21726, 21725, 21724, 21723, 21722, 21721, 21720, 21719, 21718, 21717, 21716, 21715, 21714, 21713, 21712, 21711, 21710, 21709, 21708, 21707, 21706, 21705, 21704, 21703, 21702, 21701, 21700, 21699, 21698, 21697, 21696, 21695, 21694, 21693, 21692, 21691, 21690, 21689, 21688, 21687, 21686, 21685, 21684, 21683, 21682, 21681, 21680, 21679, 21678, 21677, 21676, 21675, 21674, 21673, 21672, 21671, 21670, 21669, 21668, 21667, 21666, 21665, 21664, 21663, 21662, 21661, 21660, 21659, 21658, 21657, 21656, 21655, 21654, 21653, 21652, 21651, 21650, 21649, 21648, 21647, 21646, 21645, 21644, 21643, 21642, 21641, 21640, 21639, 21638, 21637, 21636, 21635, 21634, 21633, 21632, 21631, 21630, 21629, 21628, 21627, 21626, 21625, 21624, 21623, 21622, 21621, 21620, 21619, 21618, 21617, 21616, 21615, 21614, 21613, 21612, 21611, 21610, 21609, 21608, 21607, 21606, 21605, 21604, 21603, 21602, 21601, 21600, 21599, 21598, 21597, 21596, 21595, 21594, 21593, 21592, 21591, 21590, 21589, 21588, 21587, 21586, 21585, 21584, 21583, 21582] 
+2026-02-25 19:46:14,864 75393 INFO wsi_2026 odoo.modules.loading: Reloading registry once more after uninstalling modules 
+2026-02-25 19:46:14,892 75393 INFO wsi_2026 odoo.modules.loading: loading 1 modules... 
+2026-02-25 19:46:14,898 75393 INFO wsi_2026 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-02-25 19:46:14,935 75393 INFO wsi_2026 odoo.modules.loading: updating modules list 
+2026-02-25 19:46:14,937 75393 INFO wsi_2026 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2026-02-25 19:46:16,328 75393 INFO wsi_2026 odoo.modules.loading: loading 37 modules... 
+2026-02-25 19:46:16,354 75393 INFO wsi_2026 odoo.modules.loading: 37 modules loaded in 0.03s, 0 queries (+0 extra) 
+2026-02-25 19:46:16,527 75393 INFO wsi_2026 odoo.registry: verifying fields for every extended model 
+2026-02-25 19:46:17,053 75393 INFO wsi_2026 odoo.modules.loading: Modules loaded. 
+2026-02-25 19:46:17,071 75393 INFO wsi_2026 odoo.registry: Registry changed, signaling through the database 
+2026-02-25 19:46:17,073 75393 INFO wsi_2026 odoo.registry: Registry loaded in 2.209s 
+2026-02-25 19:46:17,073 75393 INFO wsi_2026 odoo.registry: Registry changed, signaling through the database 
+2026-02-25 19:46:17,076 75393 INFO wsi_2026 odoo.registry: Registry loaded in 10.911s 
+2026-02-25 19:46:17,076 75393 INFO wsi_2026 odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2026-02-25 19:46:17,090 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:17] "POST /web/dataset/call_button/base.module.uninstall/action_uninstall#base.module.uninstall.action_uninstall HTTP/1.1" 200 - 8976 7.060 3.958
+2026-02-25 19:46:17,108 75393 INFO wsi_2026 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-02-25 19:46:17,899 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:17] "GET /odoo HTTP/1.1" 200 - 82 0.087 0.708
+2026-02-25 19:46:18,176 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:18] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 12 0.064 0.135
+2026-02-25 19:46:18,236 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:18] "GET /web/webclient/load_menus HTTP/1.1" 200 - 13 0.066 0.198
+2026-02-25 19:46:20,671 75393 INFO wsi_2026 odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/8252f6e/web.assets_web.min.css (id:104) 
+2026-02-25 19:46:20,673 75393 INFO wsi_2026 odoo.addons.base.models.assetsbundle: Deleting attachments [99] (matching /web/assets/_______/web.assets_web.min.css) because it was replaced with /web/assets/8252f6e/web.assets_web.min.css 
+2026-02-25 19:46:20,706 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:20] "GET /web/assets/8252f6e/web.assets_web.min.css HTTP/1.1" 200 - 16 0.131 2.616
+2026-02-25 19:46:22,871 75393 INFO wsi_2026 odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/5cdd6fe/web.assets_web_print.min.css (id:105) 
+2026-02-25 19:46:22,889 75393 INFO wsi_2026 odoo.addons.base.models.assetsbundle: Deleting attachments [100] (matching /web/assets/_______/web.assets_web_print.min.css) because it was replaced with /web/assets/5cdd6fe/web.assets_web_print.min.css 
+2026-02-25 19:46:22,929 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:22] "GET /web/assets/5cdd6fe/web.assets_web_print.min.css HTTP/1.1" 200 - 10 0.087 2.123
+2026-02-25 19:46:27,126 75393 INFO wsi_2026 odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/23897d1/web.assets_web.min.js (id:106) 
+2026-02-25 19:46:27,128 75393 INFO wsi_2026 odoo.addons.base.models.assetsbundle: Deleting attachments [101] (matching /web/assets/_______/web.assets_web.min.js) because it was replaced with /web/assets/23897d1/web.assets_web.min.js 
+2026-02-25 19:46:27,155 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:27] "GET /web/assets/23897d1/web.assets_web.min.js HTTP/1.1" 200 - 13 0.075 9.135
+2026-02-25 19:46:27,528 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:27] "GET /web/webclient/translations?hash=&lang=en_US HTTP/1.1" 200 - 2 0.005 0.009
+2026-02-25 19:46:27,573 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:27] "GET /web/bundle/web_tour.interactive?lang=en_US&debug=1 HTTP/1.1" 200 - 3 0.008 0.020
+2026-02-25 19:46:27,574 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:27] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 4 0.013 0.015
+2026-02-25 19:46:27,732 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:27] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.002 0.022
+2026-02-25 19:46:27,739 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:27] "POST /web/action/load HTTP/1.1" 200 - 6 0.019 0.030
+2026-02-25 19:46:27,772 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:27] "GET /web/image/res.partner/3/avatar_128?unique=1772023566000 HTTP/1.1" 200 - 14 0.037 0.039
+2026-02-25 19:46:27,776 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:27] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.042 0.027
+2026-02-25 19:46:27,824 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:27] "POST /mail/data HTTP/1.1" 200 - 27 0.073 0.044
+2026-02-25 19:46:27,923 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:27] "POST /mail/data HTTP/1.1" 200 - 39 0.080 0.055
+2026-02-25 19:46:28,121 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:28] "GET /web/image/res.partner/2/avatar_128?unique=1772048766000 HTTP/1.1" 200 - 6 0.015 0.029
+2026-02-25 19:46:28,122 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:28] "GET /web/image/res.partner/3/avatar_128?unique=1772048766000 HTTP/1.1" 200 - 7 0.017 0.022
+2026-02-25 19:46:28,143 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:28] "POST /discuss/channel/messages HTTP/1.1" 200 - 21 0.043 0.034
+2026-02-25 19:46:28,199 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:28] "GET /web/bundle/web.assets_emoji?lang=en_US&debug=1 HTTP/1.1" 200 - 2 0.003 0.006
+2026-02-25 19:46:28,466 75393 INFO wsi_2026 odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/1e918b7/web.assets_emoji.min.js (id:107) 
+2026-02-25 19:46:28,467 75393 INFO wsi_2026 odoo.addons.base.models.assetsbundle: Deleting attachments [65] (matching /web/assets/_______/web.assets_emoji.min.js) because it was replaced with /web/assets/1e918b7/web.assets_emoji.min.js 
+2026-02-25 19:46:28,481 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:28] "GET /web/assets/1e918b7/web.assets_emoji.min.js HTTP/1.1" 200 - 10 0.011 0.250
+2026-02-25 19:46:29,762 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:29] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.002 0.005
+2026-02-25 19:46:46,272 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:46] "POST /web/action/load HTTP/1.1" 200 - 10 0.017 0.026
+2026-02-25 19:46:46,484 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:46] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 44 0.063 0.067
+2026-02-25 19:46:46,506 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:46] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.003 0.006
+2026-02-25 19:46:46,581 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:46] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.007 0.015
+2026-02-25 19:46:46,623 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:46] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 44 0.089 0.036
+2026-02-25 19:46:46,636 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:46] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 4 0.012 0.117
+2026-02-25 19:46:46,746 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:46] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.006 0.007
+2026-02-25 19:46:48,043 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:48] "POST /web/action/load HTTP/1.1" 200 - 9 0.009 0.011
+2026-02-25 19:46:48,122 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:48] "POST /web/dataset/call_kw/base.module.update/get_views#base.module.update.get_views HTTP/1.1" 200 - 11 0.039 0.025
+2026-02-25 19:46:48,142 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:48] "POST /web/dataset/call_kw/base.module.update/onchange#base.module.update.onchange HTTP/1.1" 200 - 2 0.004 0.005
+2026-02-25 19:46:49,529 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:49] "POST /web/dataset/call_kw/base.module.update/web_save#base.module.update.web_save HTTP/1.1" 200 - 5 0.008 0.010
+2026-02-25 19:46:49,544 75393 INFO wsi_2026 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user info@wsi.co.id #2 via 127.0.0.1 
+2026-02-25 19:46:51,175 75393 INFO wsi_2026 werkzeug: 127.0.0.1 - - [25/Feb/2026 19:46:51] "POST /web/dataset/call_button/base.module.update/update_module#base.module.update.update_module HTTP/1.1" 200 - 1572 0.755 0.884
+2026-02-25 19:50:28,924 75393 INFO ? odoo.service.server: Initiating shutdown 
+2026-02-25 19:50:28,930 75393 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-02-25 19:50:29,054 75393 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 8 connections  
