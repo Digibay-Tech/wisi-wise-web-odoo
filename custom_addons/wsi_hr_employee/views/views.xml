@@ -1,0 +1,21 @@
+<odoo>
+  <data>
+    <record id="view_employee_form_inherit_custom" model="ir.ui.view">
+      <field name="name">hr.employee.form.inherit.custom</field>
+      <field name="model">hr.employee</field>
+      <field name="inherit_id" ref="hr.view_employee_form"/>
+      <field name="arch" type="xml">
+        
+        <xpath expr="//field[@name='department_id']" position="before">
+            <field name="employee_id"/>
+        </xpath>
+
+        <xpath expr="//field[@name='job_id']" position="after">
+            <field name="date_joined"/>
+            <field name="employee_tenure"/>
+        </xpath>
+
+      </field>
+    </record>
+  </data>
+</odoo>
