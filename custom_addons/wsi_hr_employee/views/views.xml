@@ -7,7 +7,7 @@
       <field name="arch" type="xml">
         
         <xpath expr="//field[@name='department_id']" position="before">
-            <field name="employee_id"/>
+            <field name="employee_id" readonly="1" force_save="1"/>
         </xpath>
 
         <xpath expr="//field[@name='job_id']" position="after">
